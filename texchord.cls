@@ -27,9 +27,10 @@ a4paper % Formato de papel.
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
 %================================================================
-\newcommand{\riff}[3]{ % Macro de Riff e Intro
+\newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
 	\vspace{-5pt}
-	\musicnote{\nolyrics\small {[#1]:} ( \printchord{\bf#2} \color{black})#3}
+	\musicnote{\nolyrics\small {[#1]:} ( \printchord{\bf#2} \color{black}) #3}
+	%\musicnote{\nolyrics\smal\bf #1 \echo{#2} \rep{#3}}
 	\vspace{-5pt}
 }
 %---------------------------------------------------------------

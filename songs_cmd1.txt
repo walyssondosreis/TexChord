@@ -32,8 +32,6 @@
 --------------------------------------------------------------
 \measureson % Liga as barras de medida (padrão).
 \measuresoff % Desliga as barras de medida (padrão).
---------------------------------------------------------------
-\capo{(n)} % Usada em um ambiente de música (\beginsong). Sugere o uso do capotraste na casa informada; apenas imprime a mensagem na cifra.
 -------------------------------------------------------------- 
 \indexeson % Liga índices.
 \indexesoff % Desliga índices.

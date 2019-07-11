@@ -1,3 +1,2 @@
-- FAZER Macro de mudança de TOM FUNCIONAR
 - FAZER Macro de SOLOS
-- Consertar Macro Intro/riff deixar Redondo
+- Escrever README.MD

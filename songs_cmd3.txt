@@ -1,0 +1,17 @@
+--------------------------------------------------------------
+\gtab{chord}{fret:strings:fingering}
+--------------------------------------------------------------
+chord = Nome do acorde
+fret = Casa da pestana; pode ser omitido ou colocar (~).
+strings = Informações do acorde sobre as 6 cordas do intrumento. Numeros vão de 0 a 9 e o X representa não tocar a corda.
+fingering = Infomações de dedilhado para os dedos da mão direita; pode ser omitido. Números vão de 1 a 4 com 0 para não tocar a corda.
+--------------------------------------------------------------
+\minfrets=1  % Macro que altera o número de casas mínimas no desenho do acorde.
+\transpose{2} % Transpoe os acordes de meio em meio tom.
+\preferflats % Da preferencia aos bemois na transposição.
+\prefersharps % Da preferencia aos sustenidos na transposição.
+--------------------------------------------------------------
+\songpos{num} % 4 níveis para quebrar a musica para a proxima coluna.
+
+
+

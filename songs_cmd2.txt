@@ -45,11 +45,17 @@ ititle={title} % Um índice extra para a sobra do título.
 \endchorus
 ==============================================================
 \beginverse % Cria um verso.
+\begin{verse} % Cria um verso.
 \endverse % Finaliza um verso.
-\noversenumbers % Omite o número do verso.
-\beginverse* % Cria um verso com número omitido. Deve terminar com \endverse (não \endverse*)
-\beginchorus % Inicia um refrão.
+\end{verse}% Finaliza um verso.
+\beginchorus % Cria um refrão.
 \endchorus % Finaliza um refrão.
+--------------------------------------------------------------
+\noversenumbers % Omite o número do verso.
+--------------------------------------------------------------
+\beginverse* % Cria um verso com número omitido. Deve terminar com \endverse (não \endverse*)
+\begin{verse*} % Cria um verso com número omitido.
+\end{verse*}% Finaliza um verso com número omitido.
 --------------------------------------------------------------
 \[chordname] % Macro que produz acordes.
     \[E&]peace and \[Am]joy
@@ -58,5 +64,22 @@ ititle={title} % Um índice extra para a sobra do título.
     \[Gmaj7sus4]{th’ eternal} %Distribui acordes a palavra específica.
 # - Simbolo para Sustenido
 & - Simbolo para Bemol
+^ - Simbolo faz com q acordes do VERSO anterior possam ser repetidos no verso seguinte.
+--------------------------------------------------------------
+\memorize % Memoriza os acordes de um verso para serem repetidos. O simbolo ^ para um acorde declarado no verso a ser memorizado, ex \[^C], cria excessão para este acorde, não sendo este incluido na sequencia memorizada.
+--------------------------------------------------------------
+\newchords{regname} % Declara registrador para sequencia de acordes. Estes podem serem usados globalmente.
+\memorize[regname] % Memoriza sequencia de acordes de um verso para um registrador definido.
+\replay[regname] % Reproduz a sequência de acordes memorizados a partir do registrador informado. Utilize normalmente o simbolo ^.
+--------------------------------------------------------------
+\echo{lyrics and chords} % Coloca letra em italico e entre parênteses.
+--------------------------------------------------------------
+\rep{num} % Tag de repetição; saída (x2).
+--------------------------------------------------------------
+\textnote{text} % Tag para mostrar informações sobre a música.
+\musicnote{text} % Faz mesma coisa que \textnote.
+--------------------------------------------------------------
+\capo{(n)} % Usada em um ambiente de música (\beginsong). Sugere o uso do capotraste na casa informada; apenas imprime a mensagem na cifra exceto se a opção [transposecapos] estiver ativa.
+--------------------------------------------------------------
 
-PAREI NA PAG 10 do PDF
+
