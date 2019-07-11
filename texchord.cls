@@ -1,8 +1,6 @@
+%==================================================================
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{texchord}[2019/07/10 v0.0.1 by Walysson P. dos Reis]
-
-%--------------------------------------------------------------
-
 %==================================================================
 \LoadClass[12pt]{article}
 %==================================================================
@@ -21,15 +19,14 @@ a4paper % Formato de papel.
 \RequirePackage[sfdefault]{roboto}
 \RequirePackage{roboto-mono}
 %================================================================
-
 \nosongnumbers
 \pagestyle{empty}
+%---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
-%---------------------------------------------------------------
-%=============================================================
+%================================================================
 \newcommand{\riff}[3]{ % Macro de Riff e Intro
 	\vspace{-5pt}
 	\musicnote{\nolyrics\small {[#1]:} ( \printchord{\bf#2} \color{black})#3}
@@ -45,8 +42,7 @@ a4paper % Formato de papel.
 	\musicnote{\nolyrics\small {[ #1: #2 ]} }
 	\vspace{-5pt}
 }
-%=============================================================
-%---------------------------------------------------------------
+%================================================================
 \renewcommand{\extendprelude}{
 	{\bfseries\large\showauthors}
 	{\hbox{\footnotesize\it\songalbum}}
@@ -57,9 +53,8 @@ a4paper % Formato de papel.
 \renewcommand{\printchord}[1]{\color{chord-orange}\small{\bf#1}} % Fonte de acordes
 \renewcommand{\lyricfont}{\normalfont\normalsize} %Fonte da letra
 \renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{\hbox{\songauthors}}
+\renewcommand{\showauthors}{\color{chord-orange}\hbox{\songauthors}}
 %---------------------------------------------------------------
 \setlength{\parindent}{0.3cm} % Identação do Dicionario de Acordes
 \setlength{\versenumwidth}{1em} % Identação dos Versos
-%---------------------------------------------------------------
-%=============================================================
+%================================================================
