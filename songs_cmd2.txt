@@ -1,0 +1,62 @@
+
+==============================================================
+\begin{songs}{indexes} % Ambiente de músicas (Coleção)
+.
+.
+.
+\end{songs}
+==============================================================
+\beginsong{titles}[otherinfo] % Ambiente de música (Uma)
+.
+.
+.
+\endsong
+==============================================================
+[OPÇÕES] otherinfo Ambiente de música ::::::::::::::::::::::::
+==============================================================
+by={authors} % Autor, compositor. 
+    by={Fred Smith, John Doe, and Billy Bob}
+--------------------------------------------------------------
+cr={copyright} % Informações de direitos autorais.
+    cr={\copyright~2000 ABC Songs, Inc.}
+--------------------------------------------------------------
+li={license} % Informações de licença.
+\setlicense{license} % Macro que equivale ao li. Porem de ser usada no corpo da música \beginsong.
+*Pode-se também criar uma macro para facilitar: 
+\newcommand{\CCLI}{(CCLI \#1234567)}
+--------------------------------------------------------------
+sr={refs} % Citação de textos biblicos.
+    sr={John 3:16,17, 4:1-5; Jude 3}
+--------------------------------------------------------------
+index={lyrics} % Um índice extra para a sombra do título.
+ititle={title} % Um índice extra para a sobra do título.
+--------------------------------------------------------------
+==============================================================
+\beginverse
+.
+.
+.
+\endverse
+==============================================================
+\beginchorus
+.
+.
+.
+\endchorus
+==============================================================
+\beginverse % Cria um verso.
+\endverse % Finaliza um verso.
+\noversenumbers % Omite o número do verso.
+\beginverse* % Cria um verso com número omitido. Deve terminar com \endverse (não \endverse*)
+\beginchorus % Inicia um refrão.
+\endchorus % Finaliza um refrão.
+--------------------------------------------------------------
+\[chordname] % Macro que produz acordes.
+    \[E&]peace and \[Am]joy
+    \[F#sus4]e\[A]ternal
+    {\[G A]e}ternal % Pertime excluir parte da palavra aos acordes.
+    \[Gmaj7sus4]{th’ eternal} %Distribui acordes a palavra específica.
+# - Simbolo para Sustenido
+& - Simbolo para Bemol
+
+PAREI NA PAG 10 do PDF
