@@ -1,0 +1,65 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{texchord}[2019/07/10 v0.0.1 by Walysson P. dos Reis]
+
+%--------------------------------------------------------------
+
+%==================================================================
+\LoadClass[12pt]{article}
+%==================================================================
+\RequirePackage[chorded,noshading]{songs}
+\RequirePackage{xcolor}
+\RequirePackage[
+a4paper % Formato de papel.
+,includeheadfoot % Inclui cabeçalho e rodapé.
+,hmarginratio={1:1} % Aspecto entre texto e a margem horizontal.
+,outer={1.0cm} % Tamanho de margem esquerda e direita.
+,vmarginratio={1:1} % Aspecto entre texto e a margem vertical.
+,bmargin={1.0cm} % Tamanho de margem superior e inferior.
+]{geometry}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[LGR,T1]{fontenc}
+\RequirePackage[sfdefault]{roboto}
+\RequirePackage{roboto-mono}
+%================================================================
+
+\nosongnumbers
+\pagestyle{empty}
+\definecolor{chord-orange}{HTML}{e65c00}
+%---------------------------------------------------------------
+\newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
+\newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
+%---------------------------------------------------------------
+%=============================================================
+\newcommand{\riff}[3]{ % Macro de Riff e Intro
+	\vspace{-5pt}
+	\musicnote{\nolyrics\small {[#1]:} ( \printchord{\bf#2} \color{black})#3}
+	\vspace{-5pt}
+}
+%---------------------------------------------------------------
+\newcommand{\tom}[1]{ % Macro de TOM
+	\musicnote{\bf\small Tom: \printchord{#1}}
+}
+%---------------------------------------------------------------
+\newcommand{\act}[2]{ % Macro de Ações 
+	\vspace{-5pt}
+	\musicnote{\nolyrics\small {[ #1: #2 ]} }
+	\vspace{-5pt}
+}
+%=============================================================
+%---------------------------------------------------------------
+\renewcommand{\extendprelude}{
+	{\bfseries\large\showauthors}
+	{\hbox{\footnotesize\it\songalbum}}
+	{\hbox{\footnotesize\it\songid}}
+}
+%---------------------------------------------------------------
+\renewcommand{\stitlefont}{\LARGE\bf}
+\renewcommand{\printchord}[1]{\color{chord-orange}\small{\bf#1}} % Fonte de acordes
+\renewcommand{\lyricfont}{\normalfont\normalsize} %Fonte da letra
+\renewcommand{\chorusfont}{\it}
+\renewcommand{\showauthors}{\hbox{\songauthors}}
+%---------------------------------------------------------------
+\setlength{\parindent}{0.3cm} % Identação do Dicionario de Acordes
+\setlength{\versenumwidth}{1em} % Identação dos Versos
+%---------------------------------------------------------------
+%=============================================================
