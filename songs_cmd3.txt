@@ -12,6 +12,6 @@ fingering = Infomações de dedilhado para os dedos da mão direita; pode ser om
 \prefersharps % Da preferencia aos sustenidos na transposição.
 --------------------------------------------------------------
 \songpos{num} % 4 níveis para quebrar a musica para a proxima coluna.
-
+--------------------------------------------------------------
 
 
