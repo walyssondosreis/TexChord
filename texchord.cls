@@ -6,6 +6,7 @@
 %==================================================================
 \RequirePackage[chorded,noshading]{songs}
 \RequirePackage{xcolor}
+\RequirePackage{listings} % Escreve bloco de cod. usado para solos.
 \RequirePackage[
 a4paper % Formato de papel.
 ,includeheadfoot % Inclui cabeçalho e rodapé.
@@ -18,6 +19,9 @@ a4paper % Formato de papel.
 \RequirePackage[LGR,T1]{fontenc}
 \RequirePackage[sfdefault]{roboto}
 \RequirePackage{roboto-mono}
+
+
+
 %================================================================
 \nosongnumbers
 \pagestyle{empty}
@@ -29,10 +33,17 @@ a4paper % Formato de papel.
 %================================================================
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
 	\vspace{-5pt}
-	\musicnote{\nolyrics\small {[#1]:} ( \printchord{\bf#2} \color{black}) #3}
+	\musicnote{\small{[#1]:} ( \printchord{\bf#2 }\color{black})  #3
+	}
 	%\musicnote{\nolyrics\smal\bf #1 \echo{#2} \rep{#3}}
 	\vspace{-5pt}
 }
+\newcommand{\tab}[1]{ % Macro de Tabalhatura
+    \vspace{-5pt}
+	\musicnote{\footnotesize {[#1]} }
+	\vspace{-5pt}
+}
+
 %---------------------------------------------------------------
 \newcommand{\tom}[1]{ % Macro de TOM
 	\musicnote{\bf\small Tom: \printchord{#1}}
