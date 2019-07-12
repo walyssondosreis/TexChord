@@ -41,6 +41,4 @@
 --------------------------------------------------------------
 \includeonlysongs{(songlist)} % Cria livro de músicas com apenas músicas inclusa na lista passada como argumento. Deve ser usado antes da desclaração do documento (\begin{document}).
 --------------------------------------------------------------
-
-
 %==============================================================
