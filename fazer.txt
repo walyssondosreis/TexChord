@@ -1,2 +1,1 @@
-- FAZER Macro de SOLOS
 - Escrever README.MD
