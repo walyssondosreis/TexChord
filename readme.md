@@ -46,8 +46,15 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 ### Parâmetros opcionais
 * \seq{NomeSeq}{Acordes}{NumRep} : Defina sequência de acordes. Exige nome da sequência, exemplo Intro, a sequência de notas
 , exemplo E F\\#m C, e número de repetições, que pode ser deixado em branco, {}, ou informado, exemplo {2x}.
-
+* \act{__}{__} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, e objeto da ação, exemplo Verso 2.
 * \tab{NomeTab}\begin{lstlisting}\end{lstlisting} : Define tablatura. Insira a tablatura no corpo de ambiente, entre as tags \begin{} e \end{}. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
 * \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia em algum verso ou refrão.
+------------------------------------------------
+## Declaração de Acordes
+*\chordson : Liga modo de acordes para trecho de música.
+\*chordoff : Desliga modo de acordes para trecho de música.
+*\[acorde] : Forma para declarar acordes.
+*^ : Simbolo que substitui acorde referenciado na memoria (\memorize).
+
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.

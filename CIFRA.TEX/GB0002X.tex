@@ -1,21 +1,26 @@
 %=================================================================
-\selectlanguage{portuguese}
 \songcolumns{1}
-\beginsong{A Alegria do Senhor} %TÍTULO
-[by={\textcolor{chord-orange}{Fernandinho}} %ARTISTA
-,album={@walyssondosreis\\GB0002}] %COD. WALYSSON.MUS
-\tom{X1} % TOM        
+\beginsong
+{A Alegria do Senhor %TÍTULO
+}[by={Fernandinho %ARTISTA
+},album={@walyssondosreis},
+id={GB0002 %COD.ID.: GB0000
+}] 
+%-----------------------------------------------------------------
+\tom{X1}
 %=================================================================
-\riff{Intro}{X4 X3 X2}{2x}
+%\newchords{verse0.GB0000} % Registrador de Acordes em Sequência
+%-----------------------------------------------------------------
+\seq{Intro}{X4 X3 X2}{2x}
 %-----------------------------------------------------------------
 \begin{verse*}
 \[X1]Vento sopra forte
-Tuas águas não podem me afogar
-\[X1]Vento sopra forte
-E em suas mãos vou segurar
-\end{verse*}
+\chordsoff Tuas águas não podem me afogar
+\chordson \[X1]Vento sopra forte
+\chordsoff E em suas mãos vou segurar
+\chordson\end{verse*}
 %-----------------------------------------------------------------
-\riff{Riff Intro}{X4 X3 X2}{2x}
+\seq{Riff Intro}{X4 X3 X2}{2x}
 %-----------------------------------------------------------------
 \begin{verse*}
 \[X5]E não me guio pelo que vejo
@@ -37,6 +42,21 @@ Essa ale\[X4]gria não vai mais sa\[X2]ir
 Essa ale\[X3]gria não vai mais sa\[X6]ir
 De \[X7]dentro do meu cora\[X3]ção
 \end{verse*}
+%-----------------------------------------------------------------
+\begin{comment}
+\lstset{basicstyle=\scriptsize\bf} % Parâmetros da TAB
+%-----------------------------------------------------------------
+\tab{Solo 1}
+\begin{lstlisting}
+E|-----------------------------------------------------|
+B|-----------------------------------------------------|
+G|-----------------------------------------------------|
+D|-----------------------------------------------------|
+A|-----------------------------------------------------|
+E|-----------------------------------------------------|
+\end{lstlisting}
+%-----------------------------------------------------------------
+\end{comment}
 %=================================================================
 \vspace{2em}
 %-----------------------------------------------------------------

@@ -1,21 +1,26 @@
 %=================================================================
-\selectlanguage{portuguese}
 \songcolumns{1}
-\beginsong{A Alegria do Senhor} %TÍTULO
-[by={\textcolor{chord-orange}{Fernandinho}} %ARTISTA
-,album={@walyssondosreis\\GB0002}] %COD. WALYSSON.MUS
-\tom{Am} % TOM        
+\beginsong
+{A Alegria do Senhor %TÍTULO
+}[by={Fernandinho %ARTISTA
+},album={@walyssondosreis},
+id={GB0002 %COD.ID.: GB0000
+}] 
+%-----------------------------------------------------------------
+\tom{Am}
 %=================================================================
-\riff{Intro}{D5 C5 A5}{2x}
+%\newchords{verse0.GB0000} % Registrador de Acordes em Sequência
+%-----------------------------------------------------------------
+\seq{Intro}{D5 C5 A5}{2x}
 %-----------------------------------------------------------------
 \begin{verse*}
 \[Am]Vento sopra forte
-Tuas águas não podem me afogar
-\[Am]Vento sopra forte
-E em suas mãos vou segurar
-\end{verse*}
+\chordsoff Tuas águas não podem me afogar
+\chordson \[Am]Vento sopra forte
+\chordsoff E em suas mãos vou segurar
+\chordson \end{verse*}
 %-----------------------------------------------------------------
-\riff{Riff Intro}{D5 C5 A5}{2x}
+\seq{Riff Intro}{D5 C5 A5}{2x}
 %-----------------------------------------------------------------
 \begin{verse*}
 \[Dm7]E não me guio pelo que vejo
