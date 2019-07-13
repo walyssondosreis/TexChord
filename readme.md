@@ -51,10 +51,10 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 * \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia em algum verso ou refrão.
 ------------------------------------------------
 ## Declaração de Acordes
-*\chordson : Liga modo de acordes para trecho de música.
-\*chordoff : Desliga modo de acordes para trecho de música.
-*\[acorde] : Forma para declarar acordes.
-*^ : Simbolo que substitui acorde referenciado na memoria (\memorize).
+* \chordson : Liga modo de acordes para trecho de música.
+* \chordoff : Desliga modo de acordes para trecho de música.
+* \[acorde] : Forma para declarar acordes.
+* ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).
 
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
