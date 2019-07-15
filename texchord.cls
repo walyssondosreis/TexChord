@@ -24,19 +24,28 @@ a4paper % Formato de papel.
 \pagestyle{empty}
 %---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
+\definecolor{chord-yellow}{HTML}{e68a00}
+\definecolor{chord-purple}{HTML}{8600b3}
+\definecolor{chord-red}{HTML}{cc0000}
+\definecolor{chord-green}{HTML}{003300}
+\definecolor{chord-brown}{HTML}{663300}
+\definecolor{chord-blue}{HTML}{0000b3}
+\definecolor{artist-blue}{HTML}{0000ff}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
 %================================================================
 \newcommand{\tom}[1]{ % Macro de TOM
+    \vspace{-0.5em}
 	\musicnote{\bf\small Tom: \printchord{#1}}
+	\vspace{-0.4em}
 }
 %---------------------------------------------------------------
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
-	\vspace{-5pt}
+	\vspace{-0.4em}
 	\musicnote{\small{[#1]:} ( \printchord{\bf#2 }\color{black})  #3
 	}
-	\vspace{-5pt}
+	\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\tab}[1]{ % Macro de Tabalhatura
@@ -63,6 +72,6 @@ a4paper % Formato de papel.
 \renewcommand{\chorusfont}{\it}
 \renewcommand{\showauthors}{\color{chord-orange}\hbox{\songauthors}}
 %---------------------------------------------------------------
-\setlength{\parindent}{0.3cm} % Identação do Dicionario de Acordes
+\setlength{\parindent}{0.5em} % Identação do Dicionario de Acordes
 \setlength{\versenumwidth}{1em} % Identação dos Versos
 %================================================================
