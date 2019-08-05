@@ -59,8 +59,8 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 ------------------------------------------------
 ## Legenda de Cifras X
 ------------------------------------------------
- * PADRÃO [TonalidadeMaiorNOTAX.Variação] .Ex:[X50] [X50V1]
- * PADRÃO [TonalidadeMenorNOTAX.Variação] .Ex:[mX50] [mX50V1]
+ * PADRÃO MAIOR: [TonalidadeMaiorNOTAX.Variação] .Ex:[X50] [X50V1]
+ * PADRÃO MENOR: [TonalidadeMenorNOTAX.Variação] .Ex:[mX50] [mX50V1]
  * OBS: Variações são alterações do acorde em relação ao campo harmônico.
 ------------------------------------------------
 ### Tipos de Variações de Acordes:
