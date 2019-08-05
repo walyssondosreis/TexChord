@@ -63,19 +63,19 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
  PADRÃO [TonalidadeMenorNOTAX.Variação] .Ex:[mX50] [mX50V1]
  OBS: Variações são alterações do acorde em relação ao campo harmônico.
 -----------------------------------------------------------------
- TIPOS DE VARIAÇÂO DOS ACORDES:
- V1 - ACORDE MENOR (m)
- V2 - ACORDE MAIOR (M)
- V3 - ACORDE MEIO TOM ABAIXO (Bemois)
- V4 - ACORDE COM QUARTA (C4)
- V5 - ACORDE COM QUINTA (C5)
- V6 - ACORDE COM SEXTA (C6)
- V7 - ACORDE COM SÉTIMA MENOR (C7)
- V8 - ACODE COM BAIXO DOIS TONS ACIMA (ex:D/F#)
- V9 - ACORDE COM NONA (C9)
- V10 - ACORDE MEIO TOM ACIMA (Sustenidos)
- V11 - ACORDE COM SÉTIMA MAIOR (C7M)
- V12 - ACORDE SUSPENSO (Sus)
- V13 - ACORDE COM VARIAÇÃO DIVERSA
+### TIPOS DE VARIAÇÂO DOS ACORDES:
+> V1 - ACORDE MENOR (m)
+> V2 - ACORDE MAIOR (M)
+> V3 - ACORDE MEIO TOM ABAIXO (Bemois)
+> V4 - ACORDE COM QUARTA (C4)
+> V5 - ACORDE COM QUINTA (C5)
+> V6 - ACORDE COM SEXTA (C6)
+> V7 - ACORDE COM SÉTIMA MENOR (C7)
+> V8 - ACODE COM BAIXO DOIS TONS ACIMA (ex:D/F#)
+> V9 - ACORDE COM NONA (C9)
+> V10 - ACORDE MEIO TOM ACIMA (Sustenidos)
+> V11 - ACORDE COM SÉTIMA MAIOR (C7M)
+> V12 - ACORDE SUSPENSO (Sus)
+> V13 - ACORDE COM VARIAÇÃO DIVERSA
 %=================================================================
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
