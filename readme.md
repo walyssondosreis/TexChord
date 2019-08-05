@@ -58,11 +58,11 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 
 ------------------------------------------------
 ## Legenda de Cifras X
------------------------------------------------------------------
+------------------------------------------------
  * PADRÃO [TonalidadeMaiorNOTAX.Variação] .Ex:[X50] [X50V1]
  * PADRÃO [TonalidadeMenorNOTAX.Variação] .Ex:[mX50] [mX50V1]
  * OBS: Variações são alterações do acorde em relação ao campo harmônico.
------------------------------------------------------------------
+------------------------------------------------
 ### TIPOS DE VARIAÇÂO DOS ACORDES:
 > * V1 - ACORDE MENOR (m)
 > * V2 - ACORDE MAIOR (M)
@@ -77,5 +77,5 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 > * V11 - ACORDE COM SÉTIMA MAIOR (C7M)
 > * V12 - ACORDE SUSPENSO (Sus)
 > * V13 - ACORDE COM VARIAÇÃO DIVERSA
-%=================================================================
+------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
