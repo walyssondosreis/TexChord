@@ -64,18 +64,20 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
  * OBS: Variações são alterações do acorde em relação ao campo harmônico.
 ------------------------------------------------
 ### Tipos de Variações de Acordes:
-> * V1 - Acorde Menor (m)
-> * V2 - Acorde Maior (M)
-> * V3 - Acorde Meio Tom Abaixo (Bemois)
-> * V4 - Acorde com Quarta (Ex:C4)
-> * V5 - Acorde com Quinta (Ex:C5)
-> * V6 - Acorde com Sexta (Ex:C6)
-> * V7 - Acorde com Sétima Menor (Ex:C7)
-> * V8 - Acorde com baixo dois Tons Acima (Ex:D/F#)
-> * V9 - Acorde com Nona (Ex:C9)
-> * V10 - Acorde Meio Tom Acima (Sustenidos)
-> * V11 - Acorde com Sétima Maior (Ex:C7M)
-> * V12 - Acorde Suspenso (Sus)
-> * V13 - Acorde com Variação Diversa
+> * V0 - Variação Diversa
+> * V1 - Menor (m)
+> * V2 - Maior (M)
+> * V3 - Meio Tom Abaixo (Bemois)
+> * V4 - Com Quarta (ex:C4)
+> * V5 - Com Quinta (ex:C5)
+> * V6 - Com Sexta (ex:C6)
+> * V7 - Com Sétima Menor (ex:C7)
+> * V8 - Com baixo dois Tons Acima (ex:D/F#)
+> * V9 - Com Nona (ex:C9)
+> * V10 - Meio Tom Acima (Sustenidos)
+> * V11 - Com Sétima Maior (ex:C7M)
+> * V12 - Suspenso (Sus)
+> * V13 - Com baixo dois Tons e Meio Acima (ex:A/E)
+> * V14 - Com baixo um Tom e Meio Acima (ex:D9/F) 
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
