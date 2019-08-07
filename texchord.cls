@@ -10,10 +10,10 @@
 \RequirePackage[
 a4paper % Formato de papel.
 ,includeheadfoot % Inclui cabeçalho e rodapé.
-,hmarginratio={1:1} % Aspecto entre texto e a margem horizontal.
-,outer={1.0cm} % Tamanho de margem esquerda e direita.
+,hmarginratio={2:1} % Aspecto entre texto e a margem horizontal.
+,outer={1.2cm} % Tamanho de margem esquerda e direita.
 ,vmarginratio={1:1} % Aspecto entre texto e a margem vertical.
-,bmargin={1.0cm} % Tamanho de margem superior e inferior.
+,bmargin={0.0cm} % Tamanho de margem superior e inferior.
 ]{geometry}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[LGR,T1]{fontenc}
