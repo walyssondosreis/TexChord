@@ -55,7 +55,7 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 ## Declaração de Acordes
 * \chordson : Liga modo de acordes para trecho de música.
 * \chordoff : Desliga modo de acordes para trecho de música.
-* \[acorde] : Forma para declarar acordes.
+* \\[acorde] : Forma para declarar acordes.
 * ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).
 
 ------------------------------------------------
