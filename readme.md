@@ -7,17 +7,19 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 -----------------------------------------------
 #### Para cada música devem haver 1 espelho X e 5 versões, uma em cada tom.
 #### Os tons que derivam uma versão X, são os acordes de formas básicas ou variantes destes: 
-| X |   C  |  D   |  E 	|   G  |   A  |
-|---|------|------|-----|------|------|
-| X |  Cm  |  Dm  |  Em |   Gm |   Am |
-
-
->| C C# | D D# | E F | F# G | G# A | A# B |
+| X |   C   |   D   |   E 	|   G   |   A   |
+|---|-------|-------|-------|-------|-------|
+| X |  C C# |  D D# |  E F  |  G# A |  A# B |
 
 #### No espelho da cifra (cifra X) existem notas curingas ditas como X1,X2,X3. etc.
 #### Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
 ------------------------------------------------
-
+## Como cifrar músicas de tonalidades menores?
+#### Não é permitido representar a cifra por tonalidades menores, portanto use a sua relativa maior:
+| X |  Cm  |  Dm  |  Em |  Gm  |  Am  |
+|---|------|------|-----|------|------|
+| X |  Eb  |  F   |  G  |  Bb  |  C   |
+------------------------------------------------
 ## Como criar cifras de  uma música?
 * Deve-se primeiro criar o arquivo de espelho para a música.
 > No diretório CIFRA.TEX crie um novo arquivo .TEX no padrão: AA0000X Ex.: GB9999X.tex
@@ -59,8 +61,7 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 ------------------------------------------------
 ## Legenda de Cifras X
 ------------------------------------------------
- * PADRÃO MAIOR: [TonalidadeMaiorNOTAX.Variação] .Ex:[X50] [X50V1]
- * PADRÃO MENOR: [TonalidadeMenorNOTAX.Variação] .Ex:[mX50] [mX50V1]
+ * PADRÃO: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]
  * OBS: Variações são alterações do acorde em relação ao campo harmônico.
 ------------------------------------------------
 ### Tipos de Variações de Acordes:
@@ -79,5 +80,9 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 > * V12 - Suspenso (Sus)
 > * V13 - Com baixo dois Tons e Meio Acima (ex:A/E)
 > * V14 - Com baixo um Tom e Meio Acima (ex:D9/F) 
+> * V15 - Meio-Diminuto (m7b5) 
+> * V16 - Diminuto (º)
+> * N17 - NÃO Meio-Diminuto
+> * N18 - NÃO Diminuto
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
