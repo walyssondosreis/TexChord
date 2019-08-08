@@ -68,21 +68,21 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 > * V0 - Variação Diversa
 > * V1 - Menor (m)
 > * V2 - Maior (M)
-> * V3 - Meio Tom Abaixo (Bemois)
+> * V3 - Meio Tom Abaixo (Bemol)
 > * V4 - Com Quarta (ex:C4)
 > * V5 - Com Quinta (ex:C5)
 > * V6 - Com Sexta (ex:C6)
 > * V7 - Com Sétima Menor (ex:C7)
 > * V8 - Com baixo dois Tons Acima (ex:D/F#)
 > * V9 - Com Nona (ex:C9)
-> * V10 - Meio Tom Acima (Sustenidos)
+> * V10 - Meio Tom Acima (Sustenido)
 > * V11 - Com Sétima Maior (ex:C7M)
 > * V12 - Suspenso (Sus)
 > * V13 - Com baixo dois Tons e Meio Acima (ex:A/E)
 > * V14 - Com baixo um Tom e Meio Acima (ex:D9/F) 
-> * V15 - Meio-Diminuto (m7b5) 
+> * V15 - Meio-Diminuto (m7b5)
+> * N15 - NÃO Meio-Diminuto
 > * V16 - Diminuto (º)
-> * N17 - NÃO Meio-Diminuto
-> * N18 - NÃO Diminuto
+> * N16 - NÃO Diminuto
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
