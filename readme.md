@@ -65,7 +65,8 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
  * OBS: Variações são alterações do acorde em relação ao campo harmônico.
 ------------------------------------------------
 ### Tipos de Variações de Acordes:
-| V0 | Variação Diversa |   | |----------|:-------------:|------:|
+| V0 | Variação Diversa |   | 
+|----|------------------|---|
 | V1 | Menor (m)        |   |  
 | V2 | Maior (M)        |   |
 > * V3 - Meio Tom Abaixo (Bemol)
