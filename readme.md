@@ -81,8 +81,8 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 | V12   | Suspenso (Sus)                    | Csus4      |
 | V13   | Com baixo dois Tons e Meio Acima  | A/E        |
 | V14   | Com baixo um Tom e Meio Acima     | D9/F       | 
-| V15   | Meio-Diminuto (m7b5)              | D#m7b5     |
-| N15   | NÃO Meio-Diminuto                 | D#m7b5=>D# |
+| V15   | Meio-Diminuto (m7b5)              | Am7b5      |
+| N15   | NÃO Meio-Diminuto                 | Am7b5=>A   |
 | V16   | Diminuto (º)                      | Aº         |
 | N16   | NÃO Diminuto                      | Aº=>A      |
 ------------------------------------------------
