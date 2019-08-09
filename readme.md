@@ -69,7 +69,7 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 | V0    | Variação Diversa                  |       | 
 | V1    | Menor (m)                         |       |  
 | V2    | Maior (M)                         |       |
-| V3    | Meio Tom Abaixo (Bemol)           | F#->F |
+| V3    | Meio Tom Abaixo (Bemol)           | F#=>F |
 | V4    | Com Quarta                        | A4    |
 | V5    | Com Quinta                        |       |
 | V6    | Com Sexta                         |       |
