@@ -7,9 +7,10 @@ Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [So
 -----------------------------------------------
 ## Tudo começa pelo tom da música ...
 Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco versões em diferentes tons.  
-> As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
-> As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
-> As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
+> Obs.: As cifras curingas (X) são compostas por notas curingas como X1,X2,X3. etc.
+* As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
+* As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
+* As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
 
 Os cinco tons que derivam uma versão curinga (X), são: 
   
@@ -18,8 +19,8 @@ Os cinco tons que derivam uma versão curinga (X), são:
 | 5  |   C    |   D    |   E    |   G    |   A    |
 | 12 |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
-#### No espelho da cifra (cifra X) existem notas curingas ditas como X1,X2,X3. etc.
-#### Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
+  
+
 ------------------------------------------------
 ## Como cifrar músicas de tonalidades menores?
 #### Não é permitido representar a cifra por tonalidades menores, portanto use a sua relativa maior:
@@ -63,8 +64,8 @@ Os cinco tons que derivam uma versão curinga (X), são:
 * \chordson : Liga modo de acordes para trecho de música.
 * \chordoff : Desliga modo de acordes para trecho de música.
 * \\[acorde] : Forma para declarar acordes.
-* ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).
-
+* ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).  
+Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
 ------------------------------------------------
 ## Legenda de Cifras X
 
