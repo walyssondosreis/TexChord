@@ -69,21 +69,21 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 | V0    | Variação Diversa                  |       | 
 | V1    | Menor (m)                         |       |  
 | V2    | Maior (M)                         |       |
-| V3    | Meio Tom Abaixo (Bemol)           |       |
-> * V4 - Com Quarta (ex:C4)
-> * V5 - Com Quinta (ex:C5)
-> * V6 - Com Sexta (ex:C6)
-> * V7 - Com Sétima Menor (ex:C7)
-> * V8 - Com baixo dois Tons Acima (ex:D/F#)
-> * V9 - Com Nona (ex:C9)
-> * V10 - Meio Tom Acima (Sustenido)
-> * V11 - Com Sétima Maior (ex:C7M)
-> * V12 - Suspenso (Sus)
-> * V13 - Com baixo dois Tons e Meio Acima (ex:A/E)
-> * V14 - Com baixo um Tom e Meio Acima (ex:D9/F) 
-> * V15 - Meio-Diminuto (m7b5)
-> * N15 - NÃO Meio-Diminuto
-> * V16 - Diminuto (º)
-> * N16 - NÃO Diminuto
+| V3    | Meio Tom Abaixo (Bemol)           | F#->F |
+| V4    | Com Quarta                        | A4    |
+| V5    | Com Quinta                        |       |
+| V6    | Com Sexta                         |       |
+| V7    | Com Sétima Menor                  |       |
+| V8    | Com baixo dois Tons Acima         | D/F#  |
+| V9    | Com Nona                          |       |
+| V10   | Meio Tom Acima (Sustenido)        |       |
+| V11   | Com Sétima Maior                  | CM7   |
+| V12   | Suspenso (Sus)                    |       |
+| V13   | Com baixo dois Tons e Meio Acima  | A/E   |
+| V14   | Com baixo um Tom e Meio Acima     | D9/F  | 
+| V15   | Meio-Diminuto (m7b5)              |       |
+| N15   | NÃO Meio-Diminuto                 |       |
+| V16   | Diminuto (º)                      |       |
+| N16   | NÃO Diminuto                      |       |
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
