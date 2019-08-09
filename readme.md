@@ -3,6 +3,7 @@
 Data: 10/07/2019**
 
 Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [Songs](http://songs.sourceforge.net/).
+
 -----------------------------------------------
 ## Tudo começa pelo tom da música ...
 Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco versões em diferentes tons.  
