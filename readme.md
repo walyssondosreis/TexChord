@@ -6,7 +6,11 @@ Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [So
 
 -----------------------------------------------
 ## Tudo começa pela tom da música ...
-Para cada música devem haver 1 espelho X e 5 versões, uma em cada tom.  
+Para cada música a ser cifrada deve haver uma cifra curinga (X) e cinco versões em diferentes tons.  
+> As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.
+> As cifras por tons devem estar no diretório CIFRA.TEX/VERSION.
+> As cifras mistas (medley) devem estar no diretório CIFRA.TEX/MEDLEY.
+
 Os tons que derivam uma versão X, são os acordes de formas básicas ou variantes destes:  
 
 | X |   C    |   D    |   E    |   G    |   A    |
