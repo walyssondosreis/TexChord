@@ -1,6 +1,6 @@
 # TexChord 
-#### Autor: Walysson Pereira dos Reis
-#### Data: 10/07/2019
+**Autor: Walysson Pereira dos Reis  
+Data: 10/07/2019**
 
 Projeto Latex para criação de folhas de músicas cifradas personalizadas, com estilo CifraClub.
 
