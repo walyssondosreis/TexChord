@@ -10,11 +10,12 @@ Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco 
 > As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
 > As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
 
-Os cinco tons que derivam uma versão curinga (X), são:  
+Os cinco tons que derivam uma versão curinga (X), são: 
+  
 | X  |   1º   |   2º   |    3   |   4º   |   5º   |
-|---|--------|--------|--------|--------|--------|
-| 5 Notas |   C    |   D    |   E    |   G    |   A    |
-| 12 Notas  |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
+|----|--------|--------|--------|--------|--------|
+| 5  |   C    |   D    |   E    |   G    |   A    |
+| 12 |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
 #### No espelho da cifra (cifra X) existem notas curingas ditas como X1,X2,X3. etc.
 #### Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
