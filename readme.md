@@ -22,11 +22,11 @@ Os cinco tons que derivam uma versão curinga (X), são:
 ------------------------------------------------  
 ## Como cifrar músicas de tonalidades menores?  
 
-Não é permitido representar a cifra por tonalidades menores, portanto use a sua relativa maior:  
+Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar a relativa maior do tom desejado:  
 
-| X |  Cm  |  Dm  |  Em |  Gm  |  Am  |
+| Para tons de ... |  Cm  |  Dm  |  Em |  Gm  |  Am  |
 |---|------|------|-----|------|------|
-| X |  Eb  |  F   |  G  |  Bb  |  C   |
+| Use ... |  Eb  |  F   |  G  |  Bb  |  C   |
 
 ------------------------------------------------
 ## O que são as cifras curingas?  
