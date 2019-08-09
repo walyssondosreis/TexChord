@@ -64,26 +64,26 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
  > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]  
  > Obs: Variações são alterações do acorde em relação ao campo harmônico.
 
-|  COD  | TIPO DE VARIAÇÃO DO ACORDE        | Ex    |
-|-------|-----------------------------------|-------|
-| V0    | Variação Diversa                  |       | 
-| V1    | Menor (m)                         |       |  
-| V2    | Maior (M)                         |       |
-| V3    | Meio Tom Abaixo (Bemol)           | F#=>F |
-| V4    | Com Quarta                        | A4    |
-| V5    | Com Quinta                        |       |
-| V6    | Com Sexta                         |       |
-| V7    | Com Sétima Menor                  |       |
-| V8    | Com baixo dois Tons Acima         | D/F#  |
-| V9    | Com Nona                          |       |
-| V10   | Meio Tom Acima (Sustenido)        |       |
-| V11   | Com Sétima Maior                  | CM7   |
-| V12   | Suspenso (Sus)                    |       |
-| V13   | Com baixo dois Tons e Meio Acima  | A/E   |
-| V14   | Com baixo um Tom e Meio Acima     | D9/F  | 
-| V15   | Meio-Diminuto (m7b5)              |       |
-| N15   | NÃO Meio-Diminuto                 |       |
-| V16   | Diminuto (º)                      |       |
-| N16   | NÃO Diminuto                      |       |
+|  COD  | TIPO DE VARIAÇÃO DO ACORDE        | Ex         |
+|-------|-----------------------------------|------------|
+| V0    | Outro                             | G7(b13)    | 
+| V1    | Menor (m)                         | C=>Cm      |  
+| V2    | Maior (M)                         | G#m=>G#    |
+| V3    | Meio Tom Abaixo (Bemol)           | F#=>F      |
+| V4    | Com Quarta                        | A4         |
+| V5    | Com Quinta                        | F5         |
+| V6    | Com Sexta                         | D6         |
+| V7    | Com Sétima Menor                  | A7         |
+| V8    | Com baixo dois Tons Acima         | D/F#       |
+| V9    | Com Nona                          | A9         |
+| V10   | Meio Tom Acima (Sustenido)        | F=>F#      |
+| V11   | Com Sétima Maior                  | CM7        |
+| V12   | Suspenso (Sus)                    | Csus4      |
+| V13   | Com baixo dois Tons e Meio Acima  | A/E        |
+| V14   | Com baixo um Tom e Meio Acima     | D9/F       | 
+| V15   | Meio-Diminuto (m7b5)              | D#m7b5     |
+| N15   | NÃO Meio-Diminuto                 | D#m7b5=>D# |
+| V16   | Diminuto (º)                      | Aº         |
+| N16   | NÃO Diminuto                      | Aº=>A      |
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
