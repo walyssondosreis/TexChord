@@ -61,7 +61,7 @@ Projeto Latex para criação de folhas de músicas cifradas personalizadas, com 
 ------------------------------------------------
 ## Legenda de Cifras X
 
- > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]
+ > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]  
  > Obs: Variações são alterações do acorde em relação ao campo harmônico.
 
 |  COD  | TIPO DE VARIAÇÃO DO ACORDE        | Ex    |
