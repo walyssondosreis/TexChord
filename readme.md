@@ -5,7 +5,7 @@ Data: 10/07/2019**
 Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [Songs](http://songs.sourceforge.net/).
 
 -----------------------------------------------
-## Tudo começa pela tom da música ...
+## Tudo começa pelo tom da música ...
 Para cada música a ser cifrada deve haver uma cifra curinga (X) e cinco versões em diferentes tons.  
 > As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
 > As cifras por tons devem estar no diretório CIFRA.TEX/VERSION.  
