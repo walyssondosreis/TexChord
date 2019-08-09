@@ -1,8 +1,8 @@
-# TexChord 
+# TexChord v1.0
 **Autor: Walysson Pereira dos Reis  
 Data: 10/07/2019**
 
-Projeto Latex para criação de folhas de músicas cifradas personalizadas, com estilo CifraClub.
+Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [Songs](http://songs.sourceforge.net/).
 
 -----------------------------------------------
 #### Para cada música devem haver 1 espelho X e 5 versões, uma em cada tom.
