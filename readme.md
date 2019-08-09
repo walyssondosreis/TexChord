@@ -24,15 +24,16 @@ Os cinco tons que derivam uma versão curinga (X), são:
 
 Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar a relativa maior do tom desejado: 
 
-|                |      |      |     |      |      |
-|----------------|------|------|-----|------|------|
 | Para o tom de :|  Cm  |  Dm  |  Em |  Gm  |  Am  |
+|----------------|------|------|-----|------|------|
 | Use :          |  Eb  |  F   |  G  |  Bb  |  C   |
 
 ------------------------------------------------
 ## O que são as cifras curingas?  
+
 As cifras curingas (X) são compostas por notas curingas que vão de X1 a X7, onde X1 é o primeiro acorde de
 um campo harmônico maior natural X. 
+
 ------------------------------------------------
 ## Como criar cifras de  uma música?
 * Deve-se primeiro criar o arquivo de espelho para a música.
