@@ -39,15 +39,15 @@ Para representar as variações nos acordes naturais do campo harmônico as nota
 
 Campo Harmônico Maior Natural
 
-| X1    | X2(m)    | X3(m)    | X4    | X5    | X6(m)    | X7(m7b5)    |
-|-------|-------|-------|-------|-------|-------|-------|
-| C     | D     | E     | F     | G     | A     | B     |
-| D     |      |      |      |      |      |      |
-| E     |      |      |      |      |      |      |
-| G     |      |      |      |      |      |      |
-| A     |      |      |      |      |      |      |
-| B     |      |      |      |      |      |      |
-| F     |      |      |      |      |      |      |
+| X1    | X2(m) | X3(m) | X4    | X5    | X6(m) | X7(m7(b5))|
+|-------|-------|-------|-------|-------|-------|---------|
+| C     | Dm     | Em     | F     | G     | Am     | Bm7(b5)|
+| D     | Em     |  F#m    |  G    | A     | Bm     | C#m7(b5)  |
+| E     | F     |      |      |      |      |      |
+| G     | A     |      |      |      |      |      |
+| A     | B     |      |      |      |      |      |
+| B     | C     |      |      |      |      |      |
+| F     | G     |      |      |      |      |      |
 | C#/Db |      |      |      |      |      |      |
 | D#/Eb |      |      |      |      |      |      |
 | F#/Gb |      |      |      |      |      |      |
