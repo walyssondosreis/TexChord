@@ -29,10 +29,17 @@ Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar
 | Use :          |  Eb  |  F   |  G  |  Bb  |  C   |
 
 ------------------------------------------------
-## O que são as cifras curingas?  
+## O que são cifras curingas?  
 
-As cifras curingas (X) são compostas por notas curingas que vão de X1 a X7, onde X1 é o primeiro acorde de
-um campo harmônico maior natural X. 
+As cifras curingas (X) são cifras de músicas nas quais independem de qualquer campo harmônico.
+Elas são compostas por notas curingas que vão de X1 a X7, onde X1 é o primeiro acorde de
+um campo harmônico maior natural X e X7 é o último.  
+Para representar as variações nos acordes naturais do campo harmônico as notas curingas são concatenadas as suas varições.
+> Obs.: Ao final da página estão listadas os tipos de variações dos acordes.  
+
+Tabela de campo harmônico maior natural
+
+| X1 | X2 | X3 | X4 | X5 | X6 | X7 |
 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
