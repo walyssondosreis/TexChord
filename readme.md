@@ -3,18 +3,18 @@
 Data: 10/07/2019**
 
 Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [Songs](http://songs.sourceforge.net/).
-
+-----------------------------------------------
 ## Tudo começa pelo tom da música ...
 Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco versões em diferentes tons.  
 > As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
-> As cifras por tons devem estar no diretório CIFRA.TEX/VERSION.  
-> As cifras mistas (medley) devem estar no diretório CIFRA.TEX/MEDLEY.  
+> As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
+> As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
 
-Os tons que derivam uma versão X, são os acordes de formas básicas ou variantes destes:  
-
-| X |   C    |   D    |   E    |   G    |   A    |
+Os cinco tons que derivam uma versão curinga (X), são:  
+| X  |   1º   |   2º   |    3   |   4º   |   5º   |
 |---|--------|--------|--------|--------|--------|
-| X |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
+| 5 Notas |   C    |   D    |   E    |   G    |   A    |
+| 12 Notas  |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
 #### No espelho da cifra (cifra X) existem notas curingas ditas como X1,X2,X3. etc.
 #### Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
