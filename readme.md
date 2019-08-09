@@ -6,8 +6,8 @@ Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [So
 
 -----------------------------------------------
 ## Tudo começa pela tom da música ...
-#### Para cada música devem haver 1 espelho X e 5 versões, uma em cada tom.
-#### Os tons que derivam uma versão X, são os acordes de formas básicas ou variantes destes: 
+Para cada música devem haver 1 espelho X e 5 versões, uma em cada tom.  
+Os tons que derivam uma versão X, são os acordes de formas básicas ou variantes destes: 
 | X |   C    |   D    |   E    |   G    |   A    |
 |---|--------|--------|--------|--------|--------|
 | X |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
