@@ -7,7 +7,7 @@ Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [So
 -----------------------------------------------
 ## Tudo começa pelo tom da música ...
 Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco versões em diferentes tons.  
-As cifras curingas (X) são compostas por notas curingas como X1,X2,X3. etc.
+
 * As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
 * As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
 * As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
@@ -19,14 +19,17 @@ Os cinco tons que derivam uma versão curinga (X), são:
 | 5  |   C    |   D    |   E    |   G    |   A    |
 | 12 |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
-  
-
 ------------------------------------------------
-## Como cifrar músicas de tonalidades menores?
-#### Não é permitido representar a cifra por tonalidades menores, portanto use a sua relativa maior:
+
+## Como cifrar músicas de tonalidades menores?  
+Não é permitido representar a cifra por tonalidades menores, portanto use a sua relativa maior:  
 | X |  Cm  |  Dm  |  Em |  Gm  |  Am  |
 |---|------|------|-----|------|------|
 | X |  Eb  |  F   |  G  |  Bb  |  C   |
+------------------------------------------------
+## O que são as cifras curingas?  
+As cifras curingas (X) são compostas por notas curingas que vão de X1 a X7, onde X1 é o primeiro acorde de
+um campo harmônico maior natural X. 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
 * Deve-se primeiro criar o arquivo de espelho para a música.
