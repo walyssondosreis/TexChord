@@ -15,7 +15,7 @@ Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco 
 Os cinco tons que derivam uma versão curinga (X), são: 
   
 | X  |   1º   |   2º   |    3   |   4º   |   5º   |
-|----|--------|--------|--------|--------|--------|
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 5  |   C    |   D    |   E    |   G    |   A    |
 | 12 |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
@@ -95,7 +95,7 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
  > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]  
  > Obs: Variações são alterações do acorde em relação ao campo harmônico.
 
-|  COD  | TIPO DE VARIAÇÃO DO ACORDE        | Ex         |
+|  Código  | Tipo de Variação do Acorde        | Exemplo    |
 |-------|-----------------------------------|------------|
 | V0    | Outro                             | G7(b13)    | 
 | V1    | Menor (m)                         | C=>Cm      |  
