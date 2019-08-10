@@ -39,21 +39,16 @@ Para representar as variações nos acordes naturais do campo harmônico as nota
 
 Campo Harmônico Maior Natural
 
-| T     | m       | m     | M     | M     | m     | m7(b5) |
-|:-----:|:-------:|:-----:|:-----:|:-----:|:-----:|:------:|
-| **X1**    | X2      | X3        | X4    | X5    | X6    | **X7**     |
-| C     | Dm      | Em        | F     | G     | Am    | Bm7(b5) |
-| D     | Em      | F#m       | G     | A     | Bm    | C#m7(b5)|
-| E     | F#m     | G#m       | A     | B     | C#m   | D#m7(b5)|
-| G     | A       | B         | C     | D     | E     | F#m7(b5)|
-| A     | B       | C         | D     | E     | F     | G#m7(b5)     |
-| B     | C       | D         | E     | F     | G     | A#m7(b5)     |
-| F     | G       | A         | B     | C     | D     | Em7(b5)     |
-| C#/Db | D \| E  | E \| F   | F \| G   | G \| A   | A \| B   | B \| C   |
-| D#/Eb | E \| F  | F \| G   | G \| A   | A \| B   | B \| C   | C \| D   |
-| F#/Gb | G \| A  | A \| B   | B \| C   | C \| D   | D \| E   | E \| F   |
-| G#/Ab | A \| B  | B \| C   | C \| D   | D \| E   | E \| F   | F \| G   |
-| A#/Bb | B \| C  | C \| D   | D \| E   | E \| F   | F \| G   | G \| A   |
+| T     | m     | m     | M     | M     | m     | m7(b5)  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7**   |
+| C     | Dm    | Em    | F     | G     | Am    | Bm7(b5) |
+| D     | Em    | F#m   | G     | A     | Bm    | C#m7(b5)|
+| E     | F#m   | G#m   | A     | B     | C#m   | D#m7(b5)|
+| G     | Am    | Bm    | C     | D     | Em    | F#m7(b5)|
+| A     | Bm    | C#m   | D     | E     | F#m   | G#m7(b5)|
+| B     | C#m   | D#m   | E     | F#    | G#m   | A#m7(b5)|
+| F     | Gm    | Am    | Bb    | C     | Dm    | Em7(b5) |
 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
