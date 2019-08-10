@@ -95,8 +95,8 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
  > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]  
  > Obs: Variações são alterações do acorde em relação ao campo harmônico.
 
-|  Código  | Tipo de Variação do Acorde        | Exemplo    |
-|-------|-----------------------------------|------------|
+|  Código | Tipo de Variação do Acorde        | Exemplo    |
+|:-------:|-----------------------------------|------------|
 | V0    | Outro                             | G7(b13)    | 
 | V1    | Menor (m)                         | C=>Cm      |  
 | V2    | Maior (M)                         | G#m=>G#    |
