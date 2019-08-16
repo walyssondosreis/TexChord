@@ -1,53 +1,59 @@
 %=================================================================
-\songcolumns{1}
+\songcolumns{2}
 \beginsong
 {Santo Nome %TÍTULO
 }[by={Carlinhos Félix %ARTISTA
 },album={@walyssondosreis},
 id={GB0105 %COD.ID.: GB0000
-(Rev.0) %REVISÃO.: 0...N
+(Rev.1) %REVISÃO.: 0...N
 }]
 %-----------------------------------------------------------------
 \tom{X1}
 %=================================================================
 %\newchords{verse0.GB0000} % Registrador de Acordes em Sequência
 %-----------------------------------------------------------------
-\seq{Intro 1}{X1 X1}{2x}
+\seq{Intro 1}{X1 X1}{}
+
+\beginverse
+\[X1]Seja o que for, eu não \[X5]temerei
+\[X2]O Senhor está co\[X4]migo
+\endverse
+
 \seq{Intro 2}{X1 X5 X2 X4}{2x}
-%-----------------------------------------------------------------
-\begin{verse*}
+
+\beginverse
 \[X1]Seja o que for, eu não \[X5]temerei
 \[X2]O Senhor está co\[X4]migo
 \[X1]E, da batalha, eu não \[X5]fugirei
 \[X2]O Senhor é meu a\[X4]brigo
-\end{verse*}
-%-----------------------------------------------------------------
-\begin{verse*}
+\endverse
+
+\act{Repetir}{Intro 2}{}
+\act{Repetir}{Verso 2}{1x}
+
+\beginverse
 Con\[X2]fio na palavra de \[X3]quem me criou
 \[X4]Em nada ponho a \[X3]minha fé
 \[X2]Senão na graça de \[X3]Cristo Jesus
 \[X2]San\[X2]to, \[X2]san\[X2]to, \[X5]san\[X5]to \[X5]no\[X5]me!
-\end{verse*}
-%-----------------------------------------------------------------
-\begin{chorus}
+\endverse
+
+\beginchorus
 \[X1]Teu nome é \[X5]santo
 \[X2]Maravilhoso és \[X4]Tu, meu pai!
 \[X1]Em Ti des\[X5]canso
 \[X2]Por toda vida, hei de \[X4]Te louvar
-\end{chorus}
+\endchorus
 
+\act{Repetir}{Refrão}{+1x}
+\act{Repetir}{Intro 2}{}
+\act{Retomar}{Verso 3}{1x}
+\act{Executar}{Solo 1}{}
+\act{Repetir}{Refrão}{2x}
+\act{Repetir}{Verso 1}{1x}
+\act{Repetir}{Intro 1}{}
 %-----------------------------------------------------------------
-\seq{Riff Intro 2}{X1 X5 X2 X4}{2x}
-\seq{Riff Intro 1}{X1 X1}{2x}
-%-----------------------------------------------------------------
-\beginverse*
-.
-.
-.
-.
-.
-.
-\endverse
+
 \begin{comment}
 \lstset{basicstyle=\scriptsize\bf} % Parâmetros da TAB
 %-----------------------------------------------------------------
