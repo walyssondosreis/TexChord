@@ -54,9 +54,9 @@ a4paper % Formato de papel.
 	\vspace{-5pt}
 }
 %---------------------------------------------------------------
-\newcommand{\act}[2]{ % Macro de Ações 
+\newcommand{\act}[3]{ % Macro de Ações 
 	\vspace{-5pt}
-	\musicnote{\nolyrics\small {[ #1: #2 ]} }
+	\musicnote{\nolyrics\small {[ #1: #2 ]} {#3} }
 	\vspace{-5pt}
 }
 %================================================================

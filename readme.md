@@ -79,7 +79,7 @@ Campo Harmônico Maior Natural
 ### Parâmetros opcionais
 * \seq{NomeSeq}{Acordes}{NumRep} : Defina sequência de acordes. Exige nome da sequência, exemplo Intro, a sequência de notas
 , exemplo E F\\#m C, e número de repetições, que pode ser deixado em branco, {}, ou informado, exemplo {2x}.
-* \act{__}{__} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, e objeto da ação, exemplo Verso 2.
+* \act{__}{__}{__} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.
 * \tab{NomeTab}\begin{lstlisting}\end{lstlisting} : Define tablatura. Insira a tablatura no corpo de ambiente, entre as tags \begin{} e \end{}. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
 * \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia em algum verso ou refrão.
 ------------------------------------------------
