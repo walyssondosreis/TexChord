@@ -116,5 +116,6 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
 | N15   | NÃO Meio-Diminuto                 | Am7b5=>A   |
 | V16   | Diminuto (º)                      | Aº         |
 | N16   | NÃO Diminuto                      | Aº=>A      |
+| V17   | Com baixo um Tom Acima            | C/D        |
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
