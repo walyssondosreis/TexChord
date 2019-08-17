@@ -39,16 +39,16 @@ Para representar as variações nos acordes naturais do campo harmônico as nota
 
 Campo Harmônico Maior Natural
 
-| T     | m     | m     | M     | M     | m     | m7(b5)  |
+| T     | m     | m     | M     | M     | m     | m7(b5) ou Ø  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7**   |
-| C     | Dm    | Em    | F     | G     | Am    | Bm7(b5) |
-| D     | Em    | F#m   | G     | A     | Bm    | C#m7(b5)|
-| E     | F#m   | G#m   | A     | B     | C#m   | D#m7(b5)|
-| G     | Am    | Bm    | C     | D     | Em    | F#m7(b5)|
-| A     | Bm    | C#m   | D     | E     | F#m   | G#m7(b5)|
-| B     | C#m   | D#m   | E     | F#    | G#m   | A#m7(b5)|
-| F     | Gm    | Am    | Bb    | C     | Dm    | Em7(b5) |
+| C     | Dm    | Em    | F     | G     | Am    | BØ        |
+| D     | Em    | F#m   | G     | A     | Bm    | C#Ø       |
+| E     | F#m   | G#m   | A     | B     | C#m   | D#Ø       |
+| G     | Am    | Bm    | C     | D     | Em    | F#Ø       |
+| A     | Bm    | C#m   | D     | E     | F#m   | G#Ø       |
+| B     | C#m   | D#m   | E     | F#    | G#m   | A#Ø       |
+| F     | Gm    | Am    | Bb    | C     | Dm    | EØ        |
 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
