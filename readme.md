@@ -112,10 +112,10 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
 | V12   | Suspenso (Sus)                    | Csus4      |
 | V13   | Com baixo dois Tons e Meio Acima  | A/E        |
 | V14   | Com baixo um Tom e Meio Acima     | D9/F       | 
-| V15   | Meio-Diminuto (m7b5)              | Am7b5      |
-| N15   | NÃO Meio-Diminuto                 | Am7b5=>A   |
-| V16   | Diminuto (º)                      | Aº         |
-| N16   | NÃO Diminuto                      | Aº=>A      |
+| V15   | Meio-Diminuto (Ø)                 | AØ         |
+| N15   | NÃO Meio-Diminuto                 | AØ=>A      |
+| V16   | Diminuto (o)                      | Ao         |
+| N16   | NÃO Diminuto                      | Ao=>A      |
 | V17   | Com baixo um Tom Acima            | C/D        |
 ------------------------------------------------
 #### > Consultar documentação do Songs Package Latex para informações detalhadas.
