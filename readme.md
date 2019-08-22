@@ -102,7 +102,9 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
 ## Legenda de Cifras X
 
  > Padrão: [NotaX+Variação1+VaricaçãoN] .Ex: X7, X5V3V7  
- > Obs: Variações são alterações do acorde em relação ao seu campo harmônico.
+ > Obs: Variações são alterações do acorde em relação ao seu campo harmônico.  
+ 
+ **Tabela de Variações de Acordes**  
 
 |  Código | Tipo de Variação do Acorde        | Exemplo    |
 |:-----:|-----------------------------------|------------|
