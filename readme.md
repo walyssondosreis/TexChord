@@ -60,15 +60,12 @@ Campo Harmônico Maior Natural
 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
-* Deve-se primeiro criar o arquivo de espelho para a música.
+* Deve-se primeiro criar o arquivo de tom curinga para a música.
 > No diretório CIFRA.TEX crie um novo arquivo .TEX no padrão: AA0000X Ex.: GB9999X.tex
-* Vá ao arquivo main.tex e dentro do ambiente songs insira o caminho do arquivo criado.
->\begin{songs}{}
-\input{CIFRA.TEX/GB9999X.tex}
-\end{songs}
-* No arquivo CIFRA.TEX/GB0000X copie todo código modelo para o novo arquivo criado.
+* Vá ao arquivo input.tex e dentro da chave \\input{} insira o caminho do arquivo criado.
+Ex.: \input{CIFRA.TEX/GB9999X.tex}
+* No arquivo NoChord/GB0000X copie todo código modelo para o novo arquivo criado.
 * Apartir de agora basta preencher os dados da música seguindo os parâmetros do arquivo modelo.
-> Lembrando que deve-se criar primeiro o arquivo de espellho X e só então copia-lo, criando assim as suas versões.
 ------------------------------------------------
 ## Parâmetros do arquivo de cifra
 ### Parâmetros obrigatórios
@@ -76,7 +73,7 @@ Campo Harmônico Maior Natural
 * \songcolumns{1} : Quantidade de colunas da cifra.
 * {__} %TÍTULO : Insira o título da música entre os parênteses.
 * by={__}, %ARTISTA : Insira o artista da música entre os parênteses.
-* id={__} %COD.ID : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx.
+* id={__(Rev.0)} %COD.ID e Rev: Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra, caso tenha acabado de ser criada, comece na Rev.0, ao corrigir a cifra incremente o valor.
 ------------------------------------------------
 * \tom{_} : Insira o tom da música. Caso seja o espelho, mantenha o padrão X1 ou X2 etc.
 * \begin{verse*} \end{verse*} : Defina versos sem numeração.
@@ -87,7 +84,7 @@ Campo Harmônico Maior Natural
 ### Parâmetros opcionais
 * \seq{NomeSeq}{Acordes}{NumRep} : Defina sequência de acordes. Exige nome da sequência, exemplo Intro, a sequência de notas
 , exemplo E F\\#m C, e número de repetições, que pode ser deixado em branco, {}, ou informado, exemplo {2x}.
-* \act{__}{__}{__} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.
+* \act{Ordem}{Objeto}{NumRep} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.
 * \tab{NomeTab}\begin{lstlisting}\end{lstlisting} : Define tablatura. Insira a tablatura no corpo de ambiente, entre as tags \begin{} e \end{}. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
 * \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia em algum verso ou refrão.
 ------------------------------------------------
