@@ -33,24 +33,30 @@ Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar
 ------------------------------------------------
 ## O que são cifras curingas?  
 
-As cifras curingas (X) são cifras de músicas as quais independem de qualquer campo harmônico.
+As cifras de tom curingas (X) são cifras de músicas as quais independem de qualquer campo harmônico.
 Elas são compostas por notas curingas que vão de X1 a X7, onde X1 é o primeiro acorde de
 um campo harmônico maior natural X e X7 é o último.  
-Para representar as variações nos acordes naturais do campo harmônico as notas curingas são concatenadas as suas varições.
+Para representar as variações dos acordes pertencentes ao campo harmônico as notas curingas são concatenadas a notações de variação.
 > Obs.: Consulte a tabela de variações de acordes ao final da página.
 
 Campo Harmônico Maior Natural
 
-| T     | m     | m     | M     | M     | m     | Ø (m7(b5)) |
+| Tônica| menor     | menor     | MAIOR     | MAIOR     | menor     | Ø (m7(b5)) |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7**   |
 | C     | Dm    | Em    | F     | G     | Am    | BØ        |
+| Db
 | D     | Em    | F#m   | G     | A     | Bm    | C#Ø       |
+| Eb
 | E     | F#m   | G#m   | A     | B     | C#m   | D#Ø       |
-| G     | Am    | Bm    | C     | D     | Em    | F#Ø       |
-| A     | Bm    | C#m   | D     | E     | F#m   | G#Ø       |
-| B     | C#m   | D#m   | E     | F#    | G#m   | A#Ø       |
 | F     | Gm    | Am    | Bb    | C     | Dm    | EØ        |
+| Gb
+| G     | Am    | Bm    | C     | D     | Em    | F#Ø       |
+| Ab
+| A     | Bm    | C#m   | D     | E     | F#m   | G#Ø       |
+| Bb
+| B     | C#m   | D#m   | E     | F#    | G#m   | A#Ø       |
+
 
 ------------------------------------------------
 ## Como criar cifras de  uma música?
