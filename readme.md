@@ -59,7 +59,7 @@ Campo Harmônico Maior Natural
 
 
 ------------------------------------------------
-## Como criar cifras de  uma música?
+## Como cifrar  uma música?
 * Deve-se primeiro criar o arquivo de tom curinga para a música.
 > No diretório CIFRA.TEX crie um novo arquivo .TEX no padrão: AA0000X Ex.: GB9999X.tex
 * Vá ao arquivo input.tex e dentro da chave \\input{} insira o caminho do arquivo criado.
@@ -71,37 +71,37 @@ Ex.: \input{CIFRA.TEX/GB9999X.tex}
 ### Parâmetros obrigatórios
 
 * \songcolumns{1} : Quantidade de colunas da cifra.
-* {__} %TÍTULO : Insira o título da música entre os parênteses.
-* by={__}, %ARTISTA : Insira o artista da música entre os parênteses.
-* id={__(Rev.0)} %COD.ID e Rev: Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra, caso tenha acabado de ser criada, comece na Rev.0, ao corrigir a cifra incremente o valor.
+* {NomeDaMusica} : Insira o título da música.
+* by={NomeDoArtista} : Insira o artista da música.
+* id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra, caso tenha acabado de ser criada, comece com Rev.0, ao revisar a cifra incremente o valor.
 ------------------------------------------------
-* \tom{_} : Insira o tom da música. Caso seja o espelho, mantenha o padrão X1 ou X2 etc.
-* \begin{verse*} \end{verse*} : Defina versos sem numeração.
-> \begin{verse} \end{verse} : Defina versos com numeração, se preciso.
-* \begin{chorus} \end{chorus} : Defina refrão.
-* \gtab{\color{black}__}{0:000000} : Defina desenhos de acordes. 
+* \tom{X1} : Insira o tom da música. Caso seja o arquivo curinga, considere X1 como tom da música.
+* \begin{verse} MeuVersoAqui \end{verse} : Defina versos com numeração.
+* \begin{verse*} MeuVersoAqui \end{verse*} : Defina versos sem numeração.
+* \begin{chorus} MeuRefraoAqui \end{chorus} : Defina o refrão.
+* \gtab{\color{black} X1}{0:000000} : Defina desenhos de acordes. 
 ------------------------------------------------
 ### Parâmetros opcionais
 * \seq{NomeSeq}{Acordes}{NumRep} : Defina sequência de acordes. Exige nome da sequência, exemplo Intro, a sequência de notas
 , exemplo E F\\#m C, e número de repetições, que pode ser deixado em branco, {}, ou informado, exemplo {2x}.
-* \act{Ordem}{Objeto}{NumRep} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.
-* \tab{NomeTab}\begin{lstlisting}\end{lstlisting} : Define tablatura. Insira a tablatura no corpo de ambiente, entre as tags \begin{} e \end{}. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
-* \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia em algum verso ou refrão.
+* \act{Ordem}{Objeto}{NumRep} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.NumRep pode ser deixado em branco.
+* \tab{NomeTab}\begin{lstlisting} MinhaTabAqui \end{lstlisting} : Define tablatura. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
+* \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia memorizada em algum verso ou refrão.
 ------------------------------------------------
 ## Declaração de Acordes
-* \chordson : Liga modo de acordes para trecho de música.
-* \chordoff : Desliga modo de acordes para trecho de música.
-* \\[acorde] : Forma para declarar acordes.
+* \chordson MeuTrechoAqui: Liga modo de acordes para trecho de música.
+* \chordoff MeuTrechoAqui: Desliga modo de acordes para trecho de música.
+* \\[MeuAcordeAqui] : Forma para declarar acordes.
 * ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).  
 Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
 ------------------------------------------------
 ## Legenda de Cifras X
 
- > Padrão: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]  
- > Obs: Variações são alterações do acorde em relação ao campo harmônico.
+ > Padrão: [NotaX+Variação1+VaricaçãoN] .Ex: X7, X5V3V7  
+ > Obs: Variações são alterações do acorde em relação ao seu campo harmônico.
 
 |  Código | Tipo de Variação do Acorde        | Exemplo    |
-|:-------:|-----------------------------------|------------|
+|:-----:|-----------------------------------|------------|
 | V0    | Outro                             | G7(b13)    | 
 | V1    | Menor (m)                         | C=>Cm      |  
 | V2    | Maior (M)                         | G#m=>G#    |
