@@ -41,20 +41,20 @@ Para representar as variações dos acordes pertencentes ao campo harmônico as 
 
 Campo Harmônico Maior Natural
 
-| Tônica| menor     | menor     | MAIOR     | MAIOR     | menor     | Ø (m7(b5)) |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7** |
+| Tônica | menor | menor | MAIOR | MAIOR | menor | Ø (m7(b5)) |
+|:-----: |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| **X1** | **X2**| **X3**| **X4**| **X5**| **X6**|**X7** |
 | C      | Dm    | Em    | F     | G     | Am    | BØ    |
-| Db\|C# | Eb    | F     | Gb    | Ab    | Bb    | CØ    |
+| Db\|C# | Eb\|D#| F     | Gb\|F#| Ab\|G#| Bb\|A#| CØ    |
 | D      | Em    | F#m   | G     | A     | Bm    | C#Ø   |
-| Eb\|D# | F     | G     | Ab    | Bb    | C     | D     |
+| Eb\|D# | F     | G     | Ab\|G#| Bb\|A#| C     | D     |
 | E      | F#m   | G#m   | A     | B     | C#m   | D#Ø   |
 | F      | Gm    | Am    | Bb    | C     | Dm    | EØ    |
-| Gb\|F# | Ab    | Bb    | Cb : B  | Db    | Eb    | FØ     |
+| Gb\|F# | Ab\|G#| Bb\|A#| Cb\|B | Db\|C#| Eb\|D#| FØ    |
 | G      | Am    | Bm    | C     | D     | Em    | F#Ø   |
-| Ab\|G# | Bb    | C     | Db    | Eb    | F     | GØ    |
+| Ab\|G# | Bb\|A#| C     | Db\|C#| Eb\|D#| F     | GØ    |
 | A      | Bm    | C#m   | D     | E     | F#m   | G#Ø   |
-| Bb\|A# | C     | D     | Eb    | F     | G     | A     |
+| Bb\|A# | C     | D     | Eb\|D#| F     | G     | A     |
 | B      | C#m   | D#m   | E     | F#    | G#m   | A#Ø   |
 
 
