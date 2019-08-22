@@ -25,7 +25,7 @@ Sugere-se derivar uma cifra de tom curinga nos seguintes tons:
 ## Como cifrar músicas de tonalidades menores?  
 
 Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar a relativa maior do tom desejado:   
-**Relativa Maior/Menor**
+**Relativa Maior/Menor**  
 | Tom Menor| Cm | C#m| Dm | D#m| Em | Fm | F#m| Gm | G#m| Am | A#m| Bm | 
 |:--------------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Tom Maior | Eb | E  | F  | Gb | G  | Ab | A  | Bb | B  | C  | Db | D  |
