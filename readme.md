@@ -45,7 +45,7 @@ Campo Harmônico Maior Natural
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7** |
 | C       | Dm    | Em    | F     | G     | Am    | BØ    |
-| Db : C# | Eb    | F     | Gb    | Ab    | Bb    | CØ    |
+| Db|C# | Eb    | F     | Gb    | Ab    | Bb    | CØ    |
 | D       | Em    | F#m   | G     | A     | Bm    | C#Ø   |
 | Eb : D# | F     | G     | Ab    | Bb    | C     | D     |
 | E       | F#m   | G#m   | A     | B     | C#m   | D#Ø   |
