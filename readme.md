@@ -12,7 +12,9 @@ Toda música deve ser cifrada em um tom curinga (X).
 * As cifras de tons da escala harmônica são armazenadas no diretório CIFRA.TEX/VERSION.  
 * As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
 
-Sugere-se derivar uma cifra de tom curinga nos seguintes tons:
+Sugere-se derivar uma cifra de tom curinga nos seguintes tons:  
+
+Tons Sugeridos Saber  
   
 |    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 |:--:|:------:|:------:|:------:|:------:|:------:|
