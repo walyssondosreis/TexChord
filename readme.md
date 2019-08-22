@@ -43,19 +43,19 @@ Campo Harmônico Maior Natural
 
 | Tônica| menor     | menor     | MAIOR     | MAIOR     | menor     | Ø (m7(b5)) |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7**   |
-| C     | Dm    | Em    | F     | G     | Am    | BØ        |
-| Db
-| D     | Em    | F#m   | G     | A     | Bm    | C#Ø       |
-| Eb
-| E     | F#m   | G#m   | A     | B     | C#m   | D#Ø       |
-| F     | Gm    | Am    | Bb    | C     | Dm    | EØ        |
-| Gb
-| G     | Am    | Bm    | C     | D     | Em    | F#Ø       |
-| Ab
-| A     | Bm    | C#m   | D     | E     | F#m   | G#Ø       |
-| Bb
-| B     | C#m   | D#m   | E     | F#    | G#m   | A#Ø       |
+| **X1**| **X2**| **X3**| **X4**| **X5**| **X6**|**X7** |
+| C     | Dm    | Em    | F     | G     | Am    | BØ    |
+| Db    | Eb    | F     | Gb    | Ab    | Bb    | CØ    |
+| D     | Em    | F#m   | G     | A     | Bm    | C#Ø   |
+| Eb    | F     | G     | Ab    | Bb    | C     | D     |
+| E     | F#m   | G#m   | A     | B     | C#m   | D#Ø   |
+| F     | Gm    | Am    | Bb    | C     | Dm    | EØ    |
+| Gb    | Ab    | Bb    | Cb : B  | Db    | Eb    | FØ     |
+| G     | Am    | Bm    | C     | D     | Em    | F#Ø   |
+| Ab    | Bb    | C     | Db    | Eb    | F     | GØ    |
+| A     | Bm    | C#m   | D     | E     | F#m   | G#Ø   |
+| Bb    | C     | D     | Eb    | F     | G     | A     |
+| B     | C#m   | D#m   | E     | F#    | G#m   | A#Ø   |
 
 
 ------------------------------------------------
