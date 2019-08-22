@@ -14,7 +14,7 @@ Toda música deve ser cifrada em um tom curinga (X).
 
 Sugere-se derivar uma cifra de tom curinga nos seguintes tons:  
 
-Tons Sugeridos Saber  
+**Tons Sugeridos Saber**  
   
 |    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 |:--:|:------:|:------:|:------:|:------:|:------:|
