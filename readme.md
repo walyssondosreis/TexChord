@@ -17,7 +17,7 @@ Sugere-se derivar uma cifra de tom curinga nos seguintes tons:
 |    |   Tom  |   Tom  |  Tom   |   Tom  |   Tom  |
 |:--:|:------:|:------:|:------:|:------:|:------:|
 | 1º |   C    |   D    |   E    |   G    |   A    | 
-| 2º |        |        |   F    |        |   B    |
+| 2º |   -    |   -    |   F    |   -    |   B    |
 | 3º |   Db   |   Eb   |   Gb   |   Ab   |   Bb   |
 |    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
