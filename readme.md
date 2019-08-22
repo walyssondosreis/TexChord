@@ -39,7 +39,7 @@ um campo harmônico maior natural X e X7 é o último.
 Para representar as variações dos acordes pertencentes ao campo harmônico as notas curingas são concatenadas a notações de variação.
 > Obs.: Consulte a tabela de variações de acordes ao final da página.
 
-Campo Harmônico Maior Natural
+**Campo Harmônico Maior Natural**
 
 | Tônica | menor | menor | MAIOR | MAIOR | menor | Ø (m7(b5)) |
 |:-----: |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
