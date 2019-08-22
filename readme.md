@@ -14,12 +14,12 @@ Toda música deve ser cifrada em um tom curinga (X).
 
 Sugere-se derivar uma cifra de tom curinga nos seguintes tons:
   
-|    |     |     |     |     |     |
+|    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 |:--:|:------:|:------:|:------:|:------:|:------:|
 | 1º |   C    |   D    |   E    |   G    |   A    | 
 | 2º |   -    |   -    |   F    |   -    |   B    |
 | 3º |   Db   |   Eb   |   Gb   |   Ab   |   Bb   |
-|    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
+
 
 ------------------------------------------------  
 ## Como cifrar músicas de tonalidades menores?  
