@@ -50,7 +50,7 @@ Campo Harmônico Maior Natural
 | Eb\|D# | F     | G     | Ab\|G#| Bb\|A#| C     | D     |
 | E      | F#m   | G#m   | A     | B     | C#m   | D#Ø   |
 | F      | Gm    | Am    | Bb    | C     | Dm    | EØ    |
-| Gb\|F# | Ab\|G#| Bb\|A#| Cb\|B | Db\|C#| Eb\|D#| FØ    |
+| Gb\|F# | Ab\|G#| Bb\|A#| B     | Db\|C#| Eb\|D#| FØ    |
 | G      | Am    | Bm    | C     | D     | Em    | F#Ø   |
 | Ab\|G# | Bb\|A#| C     | Db\|C#| Eb\|D#| F     | GØ    |
 | A      | Bm    | C#m   | D     | E     | F#m   | G#Ø   |
