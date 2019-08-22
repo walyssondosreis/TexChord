@@ -6,18 +6,20 @@ Projeto Latex para criação de cifras personalizadas, utilizando biblioteca [So
 
 -----------------------------------------------
 ## Tudo começa pelo tom da música ...
-Para cada música a ser cifrada deve haver uma cifra de tom curinga (X) e cinco versões em diferentes tons.  
+Toda música deve ser cifrada em um tom curinga (X).
 
-* As cifras curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
-* As cifras por tons são armazenadas no diretório CIFRA.TEX/VERSION.  
+* As cifras de tom curinga são armazenadas no diretório CIFRA.TEX/XCHORD.  
+* As cifras de tons da escala harmônica são armazenadas no diretório CIFRA.TEX/VERSION.  
 * As cifras mistas (medley) são armazenadas no diretório CIFRA.TEX/MEDLEY.  
 
-Os cinco tons que derivam uma versão curinga (X), são: 
+Sugere-se derivar uma cifra de tom curinga nos seguintes tons:
   
-| X  |   1º   |   2º   |    3   |   4º   |   5º   |
-|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 5  |   C    |   D    |   E    |   G    |   A    |
-| 12 |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
+|    |   Tom  |   Tom  |  Tom   |   Tom  |   Tom  |
+|:--:|:------:|:------:|:------:|:------:|:------:|
+| 1º |   C    |   D    |   E    |   G    |   A    | 
+| 2º |        |        |   F    |        |   B    |
+| 3º |   Db   |   Eb   |   Gb   |   Ab   |   Bb   |
+|    |  C C#  |  D D#  | E F F# |  G G#  | A A# B |
 
 ------------------------------------------------  
 ## Como cifrar músicas de tonalidades menores?  
