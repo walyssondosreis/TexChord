@@ -29,7 +29,7 @@ Não é permitido cifrar músicas por tonalidades menores, portanto deve-se usar
 | Para o tom de :|  Cm  |  Dm  |  Em |  Gm  |  Am  |
 |----------------|------|------|-----|------|------|
 | Use :          |  Eb  |  F   |  G  |  Bb  |  C   |
-| a rela                                              |
+> Obs.: A relativa maior de um tom menor é o tom menor um tom e meio acima, claro agora em estado maior.                                             
 ------------------------------------------------
 ## O que são cifras curingas?  
 
