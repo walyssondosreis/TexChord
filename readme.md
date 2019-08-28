@@ -65,10 +65,10 @@ Para representar as variações dos acordes pertencentes ao campo harmônico as 
 ------------------------------------------------
 ## Como cifrar  uma música?
 * Deve-se primeiro criar o arquivo de tom curinga para a música.
-> No diretório CIFRA.TEX crie um novo arquivo .TEX no padrão: AA0000X Ex.: GB9999X.tex
+> No diretório CIFRA.TEX crie um novo arquivo .TEX no padrão: AA0000X Ex.: XX9999X.tex
 * Vá ao arquivo input.tex e dentro da chave \\input{} insira o caminho do arquivo criado.
-Ex.: \input{CIFRA.TEX/GB9999X.tex}
-* No arquivo NoChord/GB0000X copie todo código modelo para o novo arquivo criado.
+Ex.: \input{CIFRA.TEX/XX9999X.tex}
+* No arquivo NoChord/XX0000X copie todo código modelo para o novo arquivo criado.
 * Apartir de agora basta preencher os dados da música seguindo os parâmetros do arquivo modelo.
 ------------------------------------------------
 ## Parâmetros do arquivo de cifra
