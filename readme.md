@@ -78,7 +78,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * {NomeDaMusica} : Insira o título da música.
 * by={NomeDoArtista} : Insira o artista da música.
 * id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra, caso tenha acabado de ser criada, comece com Rev.0, ao revisar a cifra incremente o valor.
-* > Obs.: Para versões Medley não existe a tag de revisão.
+> Obs.: Para versões Medley não existe a tag de revisão.
 ------------------------------------------------
 * \tom{X1} : Insira o tom da música. Caso seja o arquivo curinga, considere X1 como tom da música.
 * \begin{verse} MeuVersoAqui \end{verse} : Defina versos com numeração.
@@ -98,12 +98,12 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * \chordoff MeuTrechoAqui: Desliga modo de acordes para trecho de música.
 * \\[MeuAcordeAqui] : Forma para declarar acordes.
 * ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).  
-Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
+> Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
 ------------------------------------------------
 ## Legenda de Cifras X
 
- > Padrão: [NotaX+Variação1+VaricaçãoN] .Ex: X7, X5V3V7  
- > Obs: Variações são alterações do acorde em relação ao seu campo harmônico.  
+ > Padrão.: [NotaX+Variação1+VaricaçãoN] .Ex: X7, X5V3V7  
+ > Obs.: Variações são alterações do acorde em relação ao seu campo harmônico.  
  
  **Tabela de Variações de Acordes**  
 
@@ -130,4 +130,4 @@ Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.
 | N16   | NÃO Diminuto                      | Ao=>A      |
 | V17   | Com baixo um Tom Acima            | C/D        |
 ------------------------------------------------
-#### > Consultar documentação do Songs Package Latex para informações detalhadas.
+#### > Consultar documentação do [Songs Package Latex](http://songs.sourceforge.net/) para informações detalhadas.
