@@ -80,7 +80,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra.
 > Obs.: Para versões Medley não existe a tag de revisão.  
 
-**Tabela de Revisões**
+**Tabela de Revisões**  
 | REVISÃO | Descrição|
 |:----:|:----:|
 | REV.0| Fase inicial da cifra, versos soltos.|
