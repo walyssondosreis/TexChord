@@ -77,8 +77,13 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * \songcolumns{1} : Quantidade de colunas da cifra.
 * {NomeDaMusica} : Insira o título da música.
 * by={NomeDoArtista} : Insira o artista da música.
-* id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra, caso tenha acabado de ser criada, comece com Rev.0, ao revisar a cifra incremente o valor.
-> Obs.: Para versões Medley não existe a tag de revisão.
+* id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra.
+> Obs.: Para versões Medley não existe a tag de revisão.  
+
+| REV.0| Fase inicial da cifra, versos soltos.|
+|:----:|:----:|
+| REV.1| Música com fluxo bem definido de acordo o audio de referência.|
+
 ------------------------------------------------
 * \tom{X1} : Insira o tom da música. Caso seja o arquivo curinga, considere X1 como tom da música.
 * \begin{verse} MeuVersoAqui \end{verse} : Defina versos com numeração.
