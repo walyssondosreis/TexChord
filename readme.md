@@ -84,7 +84,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 
 | REVISÃO | Descrição|
 |:----:|:----:|
-| REV.0| Fase inicial da cifra, versos soltos.|
+| REV.0| Fase inicial da cifra, sem fluxo.|
 | REV.1| Música com fluxo bem definido de acordo o audio de referência.|
 
 ------------------------------------------------
