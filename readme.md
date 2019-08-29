@@ -81,6 +81,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 > Obs.: Para versões Medley não existe a tag de revisão.  
 
 **Tabela de Revisões**  
+
 | REVISÃO | Descrição|
 |:----:|:----:|
 | REV.0| Fase inicial da cifra, versos soltos.|
