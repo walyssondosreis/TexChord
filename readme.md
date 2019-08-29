@@ -130,4 +130,4 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 | N16   | NÃO Diminuto                      | Ao=>A      |
 | V17   | Com baixo um Tom Acima            | C/D        |
 ------------------------------------------------
-#### > Consultar documentação do [Songs Package Latex](http://songs.sourceforge.net/) para informações detalhadas.
+#### > Consultar documentação do [Songs Package Latex](http://songs.sourceforge.net/songsdoc/songs.html) para informações detalhadas.
