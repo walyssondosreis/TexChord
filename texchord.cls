@@ -7,6 +7,7 @@
 \RequirePackage[chorded,noshading]{songs}
 \RequirePackage{xcolor}
 \RequirePackage{listings} % Escreve bloco de cod. usado para TAB.
+\RequirePackage{pst-barcode} % QR-CODE ,pstricks
 \RequirePackage[
 a4paper % Formato de papel.
 ,includeheadfoot % Inclui cabeçalho e rodapé.
@@ -20,7 +21,7 @@ a4paper % Formato de papel.
 \RequirePackage[sfdefault]{roboto}
 \RequirePackage{roboto-mono}
 %================================================================
-\nosongnumbers
+%\nosongnumbers
 \pagestyle{empty}
 %---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
@@ -34,10 +35,13 @@ a4paper % Formato de papel.
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
+\newsongkey{rev}{\let\songrev\@empty}{\def\songrev{#1}}
+\newsongkey{qr}{\let\songqr\@empty}{\def\songqr{#1}}
 %================================================================
-\newcommand{\tom}[1]{ % Macro de TOM
+\newcommand{\tom}[2]{ % Macro de TOM
     \vspace{-0.5em}
-	\musicnote{\bf\small Tom: \printchord{#1}}
+	\musicnote{\bf\small Tom: \printchord{#1} \it\color{gray}[ Tom do artista:{ #2} ]
+	}
 	\vspace{-0.4em}
 }
 %---------------------------------------------------------------
@@ -60,10 +64,17 @@ a4paper % Formato de papel.
 	\vspace{-5pt}
 }
 %================================================================
+\renewcommand{\printsongnum}[1]{ % TAG do QR-CODE
+    \begin{pspicture}(25mm,25mm) 
+	\psbarcode{\songqr}{eclevel=H width=1.0 height=1.0}{qrcode}
+    \end{pspicture}    
+}
+%---------------------------------------------------------------
 \renewcommand{\extendprelude}{
+    
 	{\bfseries\large\showauthors}
 	{\hbox{\footnotesize\it\songalbum}}
-	{\hbox{\footnotesize\it\songid}}
+	{\hbox{\footnotesize\it\songid\ (Rev.\songrev)}}
 }
 %---------------------------------------------------------------
 \renewcommand{\stitlefont}{\LARGE\bf}
@@ -74,4 +85,5 @@ a4paper % Formato de papel.
 %---------------------------------------------------------------
 \setlength{\parindent}{0.5em} % Identação do Dicionario de Acordes
 \setlength{\versenumwidth}{1em} % Identação dos Versos
+\setlength{\songnumwidth}{7.5em} % Identação do QR-CODE
 %================================================================

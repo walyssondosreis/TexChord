@@ -86,6 +86,8 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 |:----:|:----:|
 | REV.0| Fase inicial da cifra, sem fluxo.|
 | REV.1| Música com fluxo bem definido de acordo o audio de referência.|
+| REV.2| Folha de cifra com tom original do artista verificado. |
+| REV.3| Folha de cifra com link para a música por QR-Code. |
 
 ------------------------------------------------
 * \tom{X1} : Insira o tom da música. Caso seja o arquivo curinga, considere X1 como tom da música.
