@@ -77,17 +77,18 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * \songcolumns{1} : Quantidade de colunas da cifra.
 * {NomeDaMusica} : Insira o título da música.
 * by={NomeDoArtista} : Insira o artista da música.
-* id={CodId (Rev.0)} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx. 'Rev' irá identificar a fase de modificação da cifra.
+* id={CodId} : Insira o código ID da música visto na pasta de trabalho WALYSSONDOSREIS.MUS.xlsx.
+*  rev={CodRev}: 'Rev' irá identificar a fase de modificação da cifra.  
 > Obs.: Para versões Medley não existe a tag de revisão.  
-
+> Obs.: As revisões são incrementais, ou seja para revisão 3 por exemplo subentende-se que já estão respeitadas as revisões 0,1 e 2.
 **Tabela de Revisões**  
 
 | REVISÃO | Descrição|
 |:----:|:----:|
-| REV.0| Fase inicial da cifra, sem fluxo.|
-| REV.1| Música com fluxo bem definido de acordo o audio de referência.|
-| REV.2| Folha de cifra com tom original do artista verificado. |
-| REV.3| Folha de cifra com link para a música por QR-Code. |
+| 0| Fase inicial da cifra, sem fluxo.|
+| 1| Música com fluxo bem definido de acordo o audio de referência.|
+| 2| Folha de cifra com tom original do artista verificado. |
+| 3| Folha de cifra com link para a música por QR-Code. |
 
 ------------------------------------------------
 * \tom{X1} : Insira o tom da música. Caso seja o arquivo curinga, considere X1 como tom da música.
@@ -105,7 +106,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 ------------------------------------------------
 ## Declaração de Acordes
 * \chordson MeuTrechoAqui: Liga modo de acordes para trecho de música.
-* \chordoff MeuTrechoAqui: Desliga modo de acordes para trecho de música.
+* \chordsoff MeuTrechoAqui: Desliga modo de acordes para trecho de música.
 * \\[MeuAcordeAqui] : Forma para declarar acordes.
 * ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).  
 > Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
@@ -139,5 +140,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 | V16   | Diminuto (o)                      | Ao         |
 | N16   | NÃO Diminuto                      | Ao=>A      |
 | V17   | Com baixo um Tom Acima            | C/D        |
+| V18   | Com baixo um Tom Abaixo           | Em/D       |
+| V19   | Com baixo dois Tons e meio Abaixo | G/D        |  
 ------------------------------------------------
 #### > Consultar documentação do [Songs Package Latex](http://songs.sourceforge.net/songsdoc/songs.html) para informações detalhadas.

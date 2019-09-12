@@ -25,13 +25,9 @@ a4paper % Formato de papel.
 \pagestyle{empty}
 %---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
-\definecolor{chord-yellow}{HTML}{e68a00}
-\definecolor{chord-purple}{HTML}{8600b3}
-\definecolor{chord-red}{HTML}{cc0000}
-\definecolor{chord-green}{HTML}{003300}
-\definecolor{chord-brown}{HTML}{663300}
-\definecolor{chord-blue}{HTML}{0000b3}
-\definecolor{artist-blue}{HTML}{0000ff}
+\definecolor{chord-gray}{HTML}{A9A9A9}
+\definecolor{artist-gray}{HTML}{696969}
+\definecolor{act-gray}{HTML}{C0C0C0}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
@@ -39,17 +35,18 @@ a4paper % Formato de papel.
 \newsongkey{qr}{\let\songqr\@empty}{\def\songqr{#1}}
 %================================================================
 \newcommand{\tom}[2]{ % Macro de TOM
-    \vspace{-0.5em}
-	\musicnote{\bf\small Tom: \printchord{#1} \it\color{gray}[ Tom do artista:{ #2} ]
-	}
-	\vspace{-0.4em}
+    \vspace{-1.0em}
+	\musicnote{
+	\small\it\color{chord-gray}{Tom:} \color{artist-gray}{#1}
+    \color{chord-gray} \{ Tom do artista:{ #2} \}
+	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
 	\vspace{-0.4em}
-	\musicnote{\small{[#1]:} ( \printchord{\bf#2 }\color{black})  #3
-	}
-	\vspace{-0.5em}
+	\musicnote{
+	\color{chord-gray}\it\small{[ #1 ]:} ( \printchord{\bf#2 })  #3
+	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\tab}[1]{ % Macro de Tabalhatura
@@ -60,8 +57,9 @@ a4paper % Formato de papel.
 %---------------------------------------------------------------
 \newcommand{\act}[3]{ % Macro de Ações 
 	\vspace{-5pt}
-	\musicnote{\nolyrics\small {[ #1: #2 ]} {#3} }
-	\vspace{-5pt}
+	\musicnote{
+	\small\it\color{act-gray} {[ #1: #2 ]} {#3} 
+	}\vspace{-5pt}
 }
 %================================================================
 \renewcommand{\printsongnum}[1]{ % TAG do QR-CODE
@@ -69,6 +67,7 @@ a4paper % Formato de papel.
 	\psbarcode{\songqr}{eclevel=H width=1.0 height=1.0}{qrcode}
     \end{pspicture}    
 }
+\renewcommand{\printversenum}[1]{\color{act-gray}\it\scriptsize#1.\ } % Num. Do Verso
 %---------------------------------------------------------------
 \renewcommand{\extendprelude}{
     
@@ -78,12 +77,12 @@ a4paper % Formato de papel.
 }
 %---------------------------------------------------------------
 \renewcommand{\stitlefont}{\LARGE\bf}
-\renewcommand{\printchord}[1]{\color{chord-orange}\small{\bf#1}} % Fonte de acordes
+\renewcommand{\printchord}[1]{\color{chord-gray}\small{\bf#1}} % Fonte de acordes
 \renewcommand{\lyricfont}{\normalfont\normalsize} %Fonte da letra
 \renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{\color{chord-orange}\hbox{\songauthors}}
+\renewcommand{\showauthors}{\color{artist-gray}\hbox{\songauthors}}
 %---------------------------------------------------------------
 \setlength{\parindent}{0.5em} % Identação do Dicionario de Acordes
 \setlength{\versenumwidth}{1em} % Identação dos Versos
-\setlength{\songnumwidth}{7.5em} % Identação do QR-CODE
+\setlength{\songnumwidth}{7.3em} % Identação do QR-CODE
 %================================================================
