@@ -59,8 +59,7 @@ Para representar as variações dos acordes pertencentes ao campo harmônico as 
 | Ab\|G# | Bb\|A#| C     | Db\|C#| Eb\|D#| F     | GØ    |
 | A      | Bm    | C#m   | D     | E     | F#m   | G#Ø   |
 | Bb\|A# | C     | D     | Eb\|D#| F     | G     | A     |
-| B      | C#m   | D#m   | E     | F#    | G#m   | A#Ø   |
-
+| B      | C#m   | D#m   | E     | F#    | G#m   | A#Ø   |  
 
 ------------------------------------------------
 ## Como cifrar  uma música?
@@ -102,7 +101,24 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 , exemplo E F\\#m C, e número de repetições, que pode ser deixado em branco, {}, ou informado, exemplo {2x}.
 * \act{Ordem}{Objeto}{NumRep} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.NumRep pode ser deixado em branco.
 * \tab{NomeTab}\begin{lstlisting} MinhaTabAqui \end{lstlisting} : Define tablatura. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
-* \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia memorizada em algum verso ou refrão.
+* \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia memorizada em algum verso ou refrão.  
+* 
+------------------------------------------------  
+#### Tipos de sequências
+
+#### Tipos de ações   
+
+------------------------------------------------  
+## Músicas que variam de tom  
+Para músicas que variam de tom segue a seguinte notação : 
+> No momento da mudança de tom insira uma tag de ação do tipo 'Variar'. 
+Ex: \act{Variar}{+ 2 Tons}{}
+
+A notação dos acordes apartir da variação são as seguintes:
+|  Tom | 1ªVariação | 2ªVariação | 3ªVariação | NªVariação |
+|:-----:|-----------|------------|------------|------------|
+| X1    |   X1.     | X1\:       | X1.\:      | X1(Npontos)|        
+
 ------------------------------------------------
 ## Declaração de Acordes
 * \chordson MeuTrechoAqui: Liga modo de acordes para trecho de música.
@@ -110,6 +126,7 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * \\[MeuAcordeAqui] : Forma para declarar acordes.
 * ^ : Simbolo que substitui acorde referenciado na memoria (\memorize).  
 > Obs.: Acordes sustenidos (#) no código devem ser acompanhados de barra (\\) ex.: (\\#).
+
 ------------------------------------------------
 ## Legenda de Cifras X
 

@@ -25,9 +25,9 @@ a4paper % Formato de papel.
 \pagestyle{empty}
 %---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
-\definecolor{chord-gray}{HTML}{A9A9A9}
-\definecolor{artist-gray}{HTML}{696969}
-\definecolor{act-gray}{HTML}{C0C0C0}
+\definecolor{artist-gray}{HTML}{363636}
+\definecolor{chord-gray}{HTML}{696969}
+\definecolor{act-gray}{HTML}{808080}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
@@ -37,7 +37,7 @@ a4paper % Formato de papel.
 \newcommand{\tom}[2]{ % Macro de TOM
     \vspace{-1.0em}
 	\musicnote{
-	\small\it\color{chord-gray}{Tom:} \color{artist-gray}{#1}
+	\small\it\color{chord-gray}{Tom:} \color{chord-gray}{\bf{#1}}
     \color{chord-gray} \{ Tom do artista:{ #2} \}
 	}\vspace{-0.5em}
 }
@@ -67,7 +67,7 @@ a4paper % Formato de papel.
 	\psbarcode{\songqr}{eclevel=H width=1.0 height=1.0}{qrcode}
     \end{pspicture}    
 }
-\renewcommand{\printversenum}[1]{\color{act-gray}\it\scriptsize#1.\ } % Num. Do Verso
+\renewcommand{\printversenum}[1]{\color{act-gray}\it\small#1.\ } % Num. Do Verso
 %---------------------------------------------------------------
 \renewcommand{\extendprelude}{
     
