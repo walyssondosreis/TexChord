@@ -111,10 +111,11 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 ------------------------------------------------  
 ## Músicas que variam de tom  
 Para músicas que variam de tom segue a seguinte notação : 
-> No momento da mudança de tom insira uma tag de ação do tipo 'Variar'. 
-Ex: \act{Variar}{+ 2 Tons}{}
+* No momento da mudança de tom insira uma tag de ação do tipo 'Variar'. 
+Ex: \act{Variar}{+ 2 Tons}{}  
 
-A notação dos acordes apartir da variação são as seguintes:
+A notação dos acordes apartir da variação são as seguintes:  
+
 |  Tom | 1ªVariação | 2ªVariação | 3ªVariação | NªVariação |
 |:-----:|-----------|------------|------------|------------|
 | X1    |   X1.     | X1\:       | X1.\:      | X1(Npontos)|        
