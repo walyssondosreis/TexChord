@@ -25,9 +25,9 @@ a4paper % Formato de papel.
 \pagestyle{empty}
 %---------------------------------------------------------------
 \definecolor{chord-orange}{HTML}{e65c00}
-\definecolor{artist-gray}{HTML}{363636}
-\definecolor{chord-gray}{HTML}{696969}
-\definecolor{act-gray}{HTML}{808080}
+\definecolor{artist-gray}{HTML}{1C1C1C}
+\definecolor{chord-gray}{HTML}{4F4F4F}
+\definecolor{act-gray}{HTML}{696969}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
