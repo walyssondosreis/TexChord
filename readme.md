@@ -102,11 +102,6 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 * \act{Ordem}{Objeto}{NumRep} : Define ação a ser tomada durante a música. Passar tipo de ação, exemplo Repetir, objeto da ação, exemplo Verso 2 e quantidade de repetições, exemplo 4x.NumRep pode ser deixado em branco.
 * \tab{NomeTab}\begin{lstlisting} MinhaTabAqui \end{lstlisting} : Define tablatura. Insira o nome da tablatura na tag \tab{}, exemplo \tab{Solo 1}. Se for necessário altere parâmetro de configurações de exibição da tablatura no comando \lstset{basicstyle=\scriptsize\bf}.
 * \newchords{nomeAmbRep} : Cria registradores de repetição de acordes. Utilize \memorize[nomeAmbRep] em algum verso para atribuir sequencia de acordes ao registrador. Utilize \replay[nomeAmbRep] para utilizar a sequencia memorizada em algum verso ou refrão.  
-* 
-------------------------------------------------  
-#### Tipos de sequências
-
-#### Tipos de ações  
 
 \act{**Ação**}{}{}  
 
