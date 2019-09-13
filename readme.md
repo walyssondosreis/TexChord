@@ -121,7 +121,8 @@ A notação dos acordes na letra da música varia de acordo com a tabela a segui
 | X1    |   X1.     | X1\:       | X1\:.      | X1(Npontos)|        
 
 > Obs.: A quantidade de pontos é formada por apenas '.' e ':'. 
-> Obs.: A notação para meio tons no segundo argumento da ação é em modo fracionário ex.: +3/2 Tons (Um tom e meio).
+> Obs.: A notação para meio tons no segundo argumento da ação é em modo fracionário ex.: +3/2 Tons (Um tom e meio).  
+
 > Obs.: Sempre deve ser repeitado o sinal '+' (subida) e '-' (descida) para o segundo argumento.  
 
 ------------------------------------------------
