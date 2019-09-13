@@ -120,7 +120,7 @@ ex.: \act{Variar}{+ 2 Tons}{}
 A notação dos acordes na letra da música varia de acordo com a tabela a seguir:  
 
 |  Tom | 1ªVariação | 2ªVariação | 3ªVariação | NªVariação |
-|:-----:|-----------|------------|------------|------------|
+|:-----:|:---------:|:----------:|:----------:|:----------:|
 | X1    |   X1.     | X1\:       | X1\:.      | X1(Npontos)|        
 
 > Obs.: A quantidade de pontos é formada por apenas '.' e ':'.  
