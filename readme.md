@@ -109,16 +109,20 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 #### Tipos de ações   
 
 ------------------------------------------------  
-## Músicas que variam de tom  
+## Variação de tom em uma música
 Para músicas que variam de tom segue a seguinte notação : 
 * No momento da mudança de tom insira uma tag de ação do tipo 'Variar'. 
-Ex: \act{Variar}{+ 2 Tons}{}  
+ex.: \act{Variar}{+ 2 Tons}{}  
 
-A notação dos acordes apartir da variação são as seguintes:  
+A notação dos acordes na letra da música varia de acordo com a tabela a seguir:  
 
 |  Tom | 1ªVariação | 2ªVariação | 3ªVariação | NªVariação |
 |:-----:|-----------|------------|------------|------------|
-| X1    |   X1.     | X1\:       | X1.\:      | X1(Npontos)|        
+| X1    |   X1.     | X1\:       | X1\:.      | X1(Npontos)|        
+
+> Obs.: A quantidade de pontos é formada por apenas '.' e ':'. 
+> Obs.: A notação para meio tons no segundo argumento da ação é em modo fracionário ex.: +3/2 Tons (Um tom e meio).
+> Obs.: Sempre deve ser repeitado o sinal '+' (subida) e '-' (descida) para o segundo argumento.  
 
 ------------------------------------------------
 ## Declaração de Acordes
