@@ -106,7 +106,15 @@ Ex.: \input{CIFRA.TEX/XX9999X.tex}
 ------------------------------------------------  
 #### Tipos de sequências
 
-#### Tipos de ações   
+#### Tipos de ações  
+
+\act{**Ação**}{}{}  
+
+| Ação          | Descrição |
+|:-------------:|-----------|
+| Repetir       | Repetição de um determinado verso. |
+| Retomar       | Retoma o ciclo da música em determinado ponto até a próxima instrução.|
+| Executar      | Execução de determinados riffs ou solos. |  
 
 ------------------------------------------------  
 ## Variação de tom em uma música
@@ -120,10 +128,10 @@ A notação dos acordes na letra da música varia de acordo com a tabela a segui
 |:-----:|-----------|------------|------------|------------|
 | X1    |   X1.     | X1\:       | X1\:.      | X1(Npontos)|        
 
-> Obs.: A quantidade de pontos é formada por apenas '.' e ':'. 
+> Obs.: A quantidade de pontos é formada por apenas '.' e ':'.  
 > Obs.: A notação para meio tons no segundo argumento da ação é em modo fracionário ex.: +3/2 Tons (Um tom e meio).  
-
 > Obs.: Sempre deve ser respeitado o sinal '+' (subida) e '-' (descida) para o segundo argumento.  
+> Obs.: O terceiro argumento da ação não deve ser utilizado.
 
 ------------------------------------------------
 ## Declaração de Acordes
