@@ -9,7 +9,7 @@
 \RequirePackage{listings} % Escreve bloco de cod. usado para TAB.
 \RequirePackage{pst-barcode,pstricks} % QR-CODE.
 \RequirePackage[ 
-a4paper % Formato de papel.
+a4paper % Formato de papel.qr
 ,includeheadfoot % Inclui cabeçalho e rodapé.
 ,hmarginratio={2:1} % Aspecto entre texto e a margem horizontal.
 ,outer={1.2cm} % Tamanho de margem esquerda e direita.
@@ -24,71 +24,79 @@ a4paper % Formato de papel.
 \pagestyle{empty}
 %---------------------------------------------------------------
 % Padrão de Cores do Documento
-
-\definecolor{artist}{HTML}{1C1C1C}% Artista
-\definecolor{chord}{HTML}{4F4F4F}% Acorde Na Letra
-\definecolor{act-gray}{HTML}{808080}% Ações
-\definecolor{qrColor}{HTML}{000000}% QR-CODE
-\definecolor{titleColor}{HTML}{6A5ACD}% Título 
-\definecolor{lyricColor}{HTML}{008000}% Letra
-
+\definecolor{qr}{HTML}{191970}% QR-CODE
+\definecolor{title}{HTML}{000080}% Título 
+\definecolor{artist}{HTML}{483D8B}% Artista
+\definecolor{album}{HTML}{000080}% @walyssondosreis
+\definecolor{cod}{HTML}{000080}% Código 
+\definecolor{rev}{HTML}{483D8B}% Revisão
+\definecolor{tom}{HTML}{000080}% Tom
+\definecolor{tomArtist}{HTML}{191970}% Tom do Artista
+\definecolor{seq}{HTML}{000080}% Sequencias 
+\definecolor{chord}{HTML}{000080}% Acorde Na Letra
+\definecolor{lyric}{HTML}{000000}% Letra
+\definecolor{numVerse}{HTML}{000080}% Número do Verso
+\definecolor{act}{HTML}{191970}% Ações
+\definecolor{nameChord}{HTML}{000080}% Nome Desenho Acorde
+\definecolor{drawChord}{HTML}{000080}% Desenho Acorde
+\definecolor{general}{HTML}{000000}% Cor Geral
 %---------------------------------------------------------------
-\color{red}
-%---------------------------------------------------------------
+\color{general} % Define cor ao restante do texto do documento
+%================================================================
+% Entradas Do Cabeçalho
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
 \newsongkey{rev}{\let\songrev\@empty}{\def\songrev{#1}}
 \newsongkey{qr}{\let\songqr\@empty}{\def\songqr{#1}}
 %================================================================
+\renewcommand{\printsongnum}[1]{ % Definições do QR-CODE
+    \begin{pspicture}(27mm,27mm) 
+	\psbarcode[linecolor=qr]{\songqr}{eclevel=H width=1.1 height=1.1}{qrcode}
+    \end{pspicture}    
+}
+%---------------------------------------------------------------
+\renewcommand{\extendprelude}{ % Definições do Cabeçalho 
+	{\bfseries\large\showauthors}
+	{\hbox{\color{album}\footnotesize\it\songalbum}}
+	{\hbox{\color{cod}\footnotesize\it\songid\ \color{rev}(Rev.\songrev)}}
+}
+%---------------------------------------------------------------
+\renewcommand{\printversenum}[1]{ % Definições do num. do Verso
+\color{numVerse}\it\small#1. 
+}
+%================================================================
+\renewcommand{\stitlefont}{\color{title}\Huge\bf}% Formatação Título
+\renewcommand{\showauthors}{\LARGE\color{artist}\hbox{\songauthors}} % Formatação Autor
+\renewcommand{\printchord}[1]{\color{chord}\small{\bf#1}} % Formatação Acordes
+\renewcommand{\lyricfont}{\color{lyric}\normalfont\normalsize} % Formatação Letra
+\renewcommand{\chorusfont}{\it} % Formatação Refrão
+%================================================================
+\setlength{\songnumwidth}{7.9em} % Alinhamento QR-CODE
+\setlength{\versenumwidth}{1em} % Alinhamento Versos
+\setlength{\parindent}{0.5em} % Alinhamento Figura de Acordes
+%================================================================
 \newcommand{\tom}[2]{ % Macro de TOM
-    \vspace{-1.0em}
-	\musicnote{
-	\small\it\color{pink}{Tom:} \color{chord}{\bf{#1}}
-    \color{yellow} \{ Tom do artista:{ #2} \}
+    \vspace{-1.0em}\musicnote{
+	\color{tom}\small\it{Tom:} \color{chord}{\bf{#1}}
+    \color{tomArtist} \{ Tom do artista:{ #2} \}
 	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
-	\vspace{-0.4em}
-	\musicnote{
-	\color{orange}\it\small{[ #1 ]:} \printchord{( \bf#2 })  #3
+	\vspace{-0.4em}\musicnote{
+	\color{seq}\it\small{[ #1 ]:} \printchord{( \bf#2 })  #3
 	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
-\newcommand{\tab}[1]{ % Macro de Tabalhatura
-    \vspace{-5pt}
-	\musicnote{\footnotesize\bf {[#1]} }
-	\vspace{-5pt}
-}
-%---------------------------------------------------------------
 \newcommand{\act}[3]{ % Macro de Ações 
-	\vspace{-5pt}
-	\musicnote{
-	\small\it\color{red} {[ #1: #2 ]} {#3} 
+	\vspace{-5pt}\musicnote{
+	\small\it\color{act} {[ #1: #2 ]} {#3} 
 	}\vspace{-5pt}
 }
-%================================================================
-\renewcommand{\printsongnum}[1]{ % TAG do QR-CODE
-    \begin{pspicture}(27mm,27mm) 
-	\psbarcode[linecolor=qrColor]{\songqr}{eclevel=H width=1.1 height=1.1}{qrcode}
-    \end{pspicture}    
+%---------------------------------------------------------------
+\newcommand{\tab}[1]{ % Macro de Tabalhatura
+    \vspace{-5pt}\musicnote{
+    \footnotesize\bf {[#1]} }
+	\vspace{-5pt}
 }
-\renewcommand{\printversenum}[1]{\color{blue}\it\small#1.\ } % Num. Do Verso
-%---------------------------------------------------------------
-\renewcommand{\extendprelude}{
-    
-	{\bfseries\large\showauthors}
-	{\hbox{\color{blue}\footnotesize\it\songalbum}}
-	{\hbox{\color{brown}\footnotesize\it\songid\ \color{red}(Rev.\songrev)}}
-}
-%---------------------------------------------------------------
-\renewcommand{\stitlefont}{\color{titleColor}\Huge\bf}
-\renewcommand{\printchord}[1]{\color{chord}\small{\bf#1}} % Fonte de acordes
-\renewcommand{\lyricfont}{\color{lyricColor}\normalfont\normalsize} %Fonte da letra
-\renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{\LARGE\color{artist}\hbox{\songauthors}}
-%---------------------------------------------------------------
-\setlength{\parindent}{0.5em} % Identação do Dicionario de Acordes
-\setlength{\versenumwidth}{1em} % Identação dos Versos
-\setlength{\songnumwidth}{7.9em} % Identação do QR-CODE
 %================================================================
