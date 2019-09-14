@@ -5,7 +5,7 @@
 \LoadClass[12pt]{article}
 %==================================================================
 \RequirePackage[chorded,noshading]{songs}
-\RequirePackage{xcolor}
+\RequirePackage{xcolor} % Cores do Documento
 \RequirePackage{listings} % Escreve bloco de cod. usado para TAB.
 \RequirePackage{pst-barcode} % QR-CODE ,pstricks
 \RequirePackage[
@@ -24,10 +24,15 @@ a4paper % Formato de papel.
 %\nosongnumbers
 \pagestyle{empty}
 %---------------------------------------------------------------
-\definecolor{chord-orange}{HTML}{e65c00}
-\definecolor{artist-gray}{HTML}{1C1C1C}
-\definecolor{chord-gray}{HTML}{4F4F4F}
-\definecolor{act-gray}{HTML}{696969}
+\definecolor{artist}{HTML}{1C1C1C}
+\definecolor{chord}{HTML}{4F4F4F} 
+\definecolor{act-gray}{HTML}{808080}
+\definecolor{qrColor}{HTML}{000000}
+\definecolor{titleColor}{HTML}{6A5ACD}
+\definecolor{lyricColor}{HTML}{008000}
+
+%---------------------------------------------------------------
+\color{red}
 %---------------------------------------------------------------
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
 \newsongkey{id}{\let\songid\@empty}{\def\songid{#1}}
@@ -37,15 +42,15 @@ a4paper % Formato de papel.
 \newcommand{\tom}[2]{ % Macro de TOM
     \vspace{-1.0em}
 	\musicnote{
-	\small\it\color{chord-gray}{Tom:} \color{chord-gray}{\bf{#1}}
-    \color{chord-gray} \{ Tom do artista:{ #2} \}
+	\small\it\color{pink}{Tom:} \color{chord}{\bf{#1}}
+    \color{yellow} \{ Tom do artista:{ #2} \}
 	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
 	\vspace{-0.4em}
 	\musicnote{
-	\color{chord-gray}\it\small{[ #1 ]:} ( \printchord{\bf#2 })  #3
+	\color{orange}\it\small{[ #1 ]:} \printchord{( \bf#2 })  #3
 	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
@@ -58,31 +63,31 @@ a4paper % Formato de papel.
 \newcommand{\act}[3]{ % Macro de Ações 
 	\vspace{-5pt}
 	\musicnote{
-	\small\it\color{act-gray} {[ #1: #2 ]} {#3} 
+	\small\it\color{red} {[ #1: #2 ]} {#3} 
 	}\vspace{-5pt}
 }
 %================================================================
 \renewcommand{\printsongnum}[1]{ % TAG do QR-CODE
-    \begin{pspicture}(25mm,25mm) 
-	\psbarcode{\songqr}{eclevel=H width=1.0 height=1.0}{qrcode}
+    \begin{pspicture}(27mm,27mm) 
+	\psbarcode[linecolor=qrColor]{\songqr}{eclevel=H width=1.1 height=1.1}{qrcode}
     \end{pspicture}    
 }
-\renewcommand{\printversenum}[1]{\color{act-gray}\it\small#1.\ } % Num. Do Verso
+\renewcommand{\printversenum}[1]{\color{blue}\it\small#1.\ } % Num. Do Verso
 %---------------------------------------------------------------
 \renewcommand{\extendprelude}{
     
 	{\bfseries\large\showauthors}
-	{\hbox{\footnotesize\it\songalbum}}
-	{\hbox{\footnotesize\it\songid\ (Rev.\songrev)}}
+	{\hbox{\color{blue}\footnotesize\it\songalbum}}
+	{\hbox{\color{brown}\footnotesize\it\songid\ \color{red}(Rev.\songrev)}}
 }
 %---------------------------------------------------------------
-\renewcommand{\stitlefont}{\LARGE\bf}
-\renewcommand{\printchord}[1]{\color{chord-gray}\small{\bf#1}} % Fonte de acordes
-\renewcommand{\lyricfont}{\normalfont\normalsize} %Fonte da letra
+\renewcommand{\stitlefont}{\color{titleColor}\Huge\bf}
+\renewcommand{\printchord}[1]{\color{chord}\small{\bf#1}} % Fonte de acordes
+\renewcommand{\lyricfont}{\color{lyricColor}\normalfont\normalsize} %Fonte da letra
 \renewcommand{\chorusfont}{\it}
-\renewcommand{\showauthors}{\color{artist-gray}\hbox{\songauthors}}
+\renewcommand{\showauthors}{\LARGE\color{artist}\hbox{\songauthors}}
 %---------------------------------------------------------------
 \setlength{\parindent}{0.5em} % Identação do Dicionario de Acordes
 \setlength{\versenumwidth}{1em} % Identação dos Versos
-\setlength{\songnumwidth}{7.3em} % Identação do QR-CODE
+\setlength{\songnumwidth}{7.9em} % Identação do QR-CODE
 %================================================================
