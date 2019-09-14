@@ -5,26 +5,27 @@
 \LoadClass[12pt]{article}
 %==================================================================
 \RequirePackage[chorded,noshading]{songs}
-\RequirePackage{xcolor} % Cores do Documento
+\RequirePackage{xcolor} % Cores do Documento.
 \RequirePackage{listings} % Escreve bloco de cod. usado para TAB.
-\RequirePackage{pst-barcode} % QR-CODE ,pstricks
-\RequirePackage[
+\RequirePackage{pst-barcode,pstricks} % QR-CODE.
+\RequirePackage[ 
 a4paper % Formato de papel.
 ,includeheadfoot % Inclui cabeçalho e rodapé.
 ,hmarginratio={2:1} % Aspecto entre texto e a margem horizontal.
 ,outer={1.2cm} % Tamanho de margem esquerda e direita.
 ,vmarginratio={1:1} % Aspecto entre texto e a margem vertical.
 ,bmargin={0.0cm} % Tamanho de margem superior e inferior.
-]{geometry}
+]{geometry}% Geométria do Documento.
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[LGR,T1]{fontenc}
 \RequirePackage[sfdefault]{roboto}
 \RequirePackage{roboto-mono}
 %================================================================
-%\nosongnumbers
 \pagestyle{empty}
 %---------------------------------------------------------------
-\definecolor{artist}{HTML}{1C1C1C}
+% CORES DO DOCUMENTO
+
+\definecolor{artist}{HTML}{1C1C1C} % Cor Do Artista
 \definecolor{chord}{HTML}{4F4F4F} 
 \definecolor{act-gray}{HTML}{808080}
 \definecolor{qrColor}{HTML}{000000}
