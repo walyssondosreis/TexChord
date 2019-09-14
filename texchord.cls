@@ -23,14 +23,14 @@ a4paper % Formato de papel.
 %================================================================
 \pagestyle{empty}
 %---------------------------------------------------------------
-% CORES DO DOCUMENTO
+% Padrão de Cores do Documento
 
-\definecolor{artist}{HTML}{1C1C1C} % Cor Do Artista
-\definecolor{chord}{HTML}{4F4F4F} 
-\definecolor{act-gray}{HTML}{808080}
-\definecolor{qrColor}{HTML}{000000}
-\definecolor{titleColor}{HTML}{6A5ACD}
-\definecolor{lyricColor}{HTML}{008000}
+\definecolor{artist}{HTML}{1C1C1C}% Artista
+\definecolor{chord}{HTML}{4F4F4F}% Acorde Na Letra
+\definecolor{act-gray}{HTML}{808080}% Ações
+\definecolor{qrColor}{HTML}{000000}% QR-CODE
+\definecolor{titleColor}{HTML}{6A5ACD}% Título 
+\definecolor{lyricColor}{HTML}{008000}% Letra
 
 %---------------------------------------------------------------
 \color{red}
