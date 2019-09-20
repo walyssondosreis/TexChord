@@ -39,7 +39,7 @@ a4paper % Formato de papel.qr
 \definecolor{act}{HTML}{191970}% Ações
 \definecolor{nameChord}{HTML}{000080}% Nome Desenho Acorde
 \definecolor{drawChord}{HTML}{000080}% Desenho Acorde
-\definecolor{general}{HTML}{000000}% Cor Geral
+\definecolor{general}{HTML}{191970}% Cor Geral
 %---------------------------------------------------------------
 \color{general} % Define cor ao restante do texto do documento
 %================================================================

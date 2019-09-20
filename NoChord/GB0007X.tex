@@ -5,7 +5,7 @@
 }[by={Fernandinho %ARTISTA
 },album={@walyssondosreis},
 id={GB0007 %COD.ID.: GB0000
-},rev={0}, %REVISÃO
+},rev={3}, %REVISÃO
 qr={https://drive.google.com/open?id=1YDpM8Pgh7TRx5SvUL_OnqkxKUn-rZMDh %LINK
 }]
 %-----------------------------------------------------------------
@@ -14,15 +14,17 @@ qr={https://drive.google.com/open?id=1YDpM8Pgh7TRx5SvUL_OnqkxKUn-rZMDh %LINK
 %\newchords{verse1.GB0000X} % Registrador de Acordes em Sequência
 %\newchords{chorus1.GB0000X} % Registrador de Acordes em Sequência
 %-----------------------------------------------------------------
-%\seq{Intro}{}{}
+\seq{Intro}{}{}
 %-----------------------------------------------------------------
 %\beginverse* \endverse
 %\beginchorus \endchorus
-\beginverse*
+\beginverse
 As dores, as lutas, angústias e aflições
 O choro, o medo, as perdas e solidão
 \endverse
-\beginverse*
+\act{Executar}{Riff 1}{}
+\act{Repetir}{Verso 1}{1x}
+\beginverse
 Somos entregues a morte todo dia
 Por amor a ti
 Somos a geração que se levanta e nunca vai desistir
@@ -33,8 +35,15 @@ Agindo Deus, quem impedirá?
 Agindo Deus, quem impedirá?
 Agindo Deus, quem impedirá?
 \endchorus
+\act{Executar}{Riff Intro}{}
+\act{Repetir}{Verso 1}{1x}
+\act{Repetir}{Verso 2}{2x}
+\act{Repetir}{Refrão}{1x}
+\act{Executar}{Solo 1}{}
+\act{Repetir}{Refrão}{2x}
+\act{Executar}{Solo 2}{}
 % Verso de preenchimento
-\beginverse*
+\beginverse*\color{white}
 .
 .
 .
