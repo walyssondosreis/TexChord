@@ -1,5 +1,8 @@
 %----------------------------------------------
 % XMEDLEY
 %----------------------------------------------
-\input{XMedley/GB[88.32.153]X.tex}
+\bash[stdoutFile=inputAuto.tex]
+{ shopt -s nullglob; for file in XMedley/*.tex; do echo "\\input{$file}"; done; } 
+\END
+\input{inputAuto.tex}
 %----------------------------------------------

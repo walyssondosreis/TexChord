@@ -8,6 +8,8 @@
 \RequirePackage{xcolor} % Cores do Documento.
 \RequirePackage{listings} % Escreve bloco de cod. usado para TAB.
 \RequirePackage{pst-barcode,pstricks} % QR-CODE.
+\RequirePackage{bashful} % Usando para buscas arquivos nos diretorios auto.
+\RequirePackage{verbatim} % Fazer comentário em bloco.
 \RequirePackage[ 
 a4paper % Formato de papel.qr
 ,includeheadfoot % Inclui cabeçalho e rodapé.
@@ -22,26 +24,6 @@ a4paper % Formato de papel.qr
 \RequirePackage{roboto-mono}
 %================================================================
 \pagestyle{empty}
-%---------------------------------------------------------------
-% Padrão de Cores do Documento
-\definecolor{qr}{HTML}{191970}% QR-CODE
-\definecolor{title}{HTML}{000080}% Título 
-\definecolor{artist}{HTML}{483D8B}% Artista
-\definecolor{album}{HTML}{000080}% @walyssondosreis
-\definecolor{cod}{HTML}{000080}% Código 
-\definecolor{rev}{HTML}{483D8B}% Revisão
-\definecolor{tom}{HTML}{000080}% Tom
-\definecolor{tomArtist}{HTML}{191970}% Tom do Artista
-\definecolor{seq}{HTML}{000080}% Sequencias 
-\definecolor{chord}{HTML}{000080}% Acorde Na Letra
-\definecolor{lyric}{HTML}{000000}% Letra
-\definecolor{numVerse}{HTML}{000080}% Número do Verso
-\definecolor{act}{HTML}{191970}% Ações
-\definecolor{nameChord}{HTML}{000080}% Nome Desenho Acorde
-\definecolor{drawChord}{HTML}{000080}% Desenho Acorde
-\definecolor{general}{HTML}{191970}% Cor Geral
-%---------------------------------------------------------------
-\color{general} % Define cor ao restante do texto do documento
 %================================================================
 % Entradas Do Cabeçalho
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
