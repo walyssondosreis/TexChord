@@ -72,14 +72,14 @@ a4paper % Formato de papel.
 }
 %---------------------------------------------------------------
 \newcommand{\act}[3]{ % Macro de Ações 
-	\vspace{-5pt}\musicnote{
+	\vspace{-0.4em}\musicnote{
 	\small\it\scshape\color{act} {[ #1: #2 ]} {#3} 
-	}\vspace{-5pt}
+	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\tab}[1]{ % Macro de Tabalhatura
-    \vspace{-5pt}\musicnote{
+    \vspace{-0.4em}\musicnote{
     \footnotesize\bf {[#1]} }
-	\vspace{-5pt}
+	\vspace{-0.5em}
 }
 %================================================================
