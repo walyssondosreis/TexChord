@@ -21,8 +21,8 @@ a4paper % Formato de papel.
 ]{geometry}% Formatação do documento.
 %---------------------------------------------------------------
 \RequirePackage[LGR,T1]{fontenc} % Base para as fontes
+\RequirePackage{cyklop} % Fonte Cyklop | \scshape \itshape
 \RequirePackage[sfdefault]{roboto}  % Fonte Roboto | \roboto
-\renewcommand*\sfdefault{cyklop}% Fonte Cyklop | \scshape \itshape  
 %================================================================
 \pagestyle{empty}
 %================================================================
@@ -61,25 +61,25 @@ a4paper % Formato de papel.
 \newcommand{\tom}[2]{ % Macro de TOM
     \vspace{-1.0em}\musicnote{
 	\color{tom}\normalsize\it\scshape Tom:\printchord{ \bf#1 }
-    \color{tomArtist} \small \{ Tom do artista:{ #2} \}
+    \color{tomArtist} \small \{ Tom do artista:{ \normalfont{\it#2}} \}
 	}\vspace{-0.5em}
 }
 %---------------------------------------------------------------
 \newcommand{\seq}[3]{ % Macro de Seq. de Acordes (Riff,Intro,etc)
 	\vspace{-0.4em}\musicnote{
 	\color{seq}\it\small\scshape{[ #1 ]:} \printchord{( \bf#2 )}  #3
-	}\vspace{-0.5em}
+	}\vspace{-0.6em}
 }
 %---------------------------------------------------------------
 \newcommand{\act}[3]{ % Macro de Ações 
 	\vspace{-0.4em}\musicnote{
 	\small\it\scshape\color{act} {[ #1: #2 ]} {#3} 
-	}\vspace{-0.5em}
+	}\vspace{-0.6em}
 }
 %---------------------------------------------------------------
 \newcommand{\tab}[1]{ % Macro de Tabalhatura
     \vspace{-0.4em}\musicnote{
     \footnotesize\bf {[#1]} }
-	\vspace{-0.5em}
+	\vspace{-0.6em}
 }
 %================================================================
