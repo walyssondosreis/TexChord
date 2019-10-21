@@ -1,8 +1,0 @@
-%----------------------------------------------
-% XMEDLEY
-%----------------------------------------------
-\bash[stdoutFile=inputAuto.tex]
-{ shopt -s nullglob; for file in XMedley/*.tex; do echo "\\input{$file}"; done; } 
-\END
-\input{inputAuto.tex}
-%----------------------------------------------

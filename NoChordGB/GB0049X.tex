@@ -5,7 +5,7 @@
 }[by={Fernandinho %ARTISTA
 },album={@walyssondosreis},
 id={GB0049 %COD.ID.: GB0000
-},rev={0}, %REVISÃO
+},rev={3}, %REVISÃO
 qr={https://drive.google.com/open?id=1ov6LvP15MO4lwp6a15f2y_2kzwNBijJp %LINK
 }]
 %-----------------------------------------------------------------
@@ -14,43 +14,52 @@ qr={https://drive.google.com/open?id=1ov6LvP15MO4lwp6a15f2y_2kzwNBijJp %LINK
 %\newchords{verse1.GB0000X} % Registrador de Acordes em Sequência
 %\newchords{chorus1.GB0000X} % Registrador de Acordes em Sequência
 %-----------------------------------------------------------------
-%\seq{Intro}{}{}
+\seq{Intro 1}{X1}{}
+\seq{Intro 2}{X6 X4V11 X6 X4V11}{}
 %-----------------------------------------------------------------
 %\beginverse* \endverse
 %\beginchorus \endchorus
-\beginverse*
-Deixou Sua glória
-Foi por amor, foi por amor
-E o seu sangue derramou
-Que grande amor
+\beginverse
+\[X1] Deixou Sua glória foi por amor, foi por amor
+\[X6] E o seu \[X4V11]sangue derra\[X6]mou
+Que grande a\[X4V11]mor
 \endverse
-\beginverse*
-Naquela via dolorosa, se entregou
-Eu não mereço, mas Sua graça me alcançou
+\beginverse
+\[X2V7] Naquela \[X4V11]via dolo\[X1]rosa, se entre\[X5V4]gou
+\[X2V7] Eu não me\[X4V11]reço, mas Sua \[X1]graça me alcan\[X5V4]çou
 \endverse
-\beginverse*
-Eu me rendo ao seu amor
-Eu me rendo ao seu amor
-Eu me rendo ao seu amor
-Eu me rendo, eu me rendo, eu me rendo
+\beginverse
+Eu me \[X2V7]rendo ao seu a\[X4V11]mor
+Eu me \[X1]rendo ao seu a\[X5V4]mor
+Eu me \[X2V7]rendo ao seu a\[X4V11]mor
+Eu me \[X6]rendo, eu me \[X5V4]rendo
 \endverse
-\beginverse*
-Deus Emanuel
-Estrela da Manhã
-Cordeiro de Deus
-Pão da Vida
-Príncipe da paz
-Grande El Shaddai
-Santo de Israel
-Luz do mundo
+\beginverse
+\[X6]Deus Emanuel
+Es\[X4V11]trela da Manhã
+\[X1]Cordeiro de Deus
+\[X5V4]Pão da Vida
+\[X6]Príncipe da paz
+\[X4V11]Grande El Shaddai
+\[X1]Santo de Israel
+\[X5V4]Luz do mundo
 \endverse
 \beginchorus
-Galileu, Jesus, Jesus
-Galileu, Jesus, Jesus
-Galileu, Jesus, Jesus
-Galileu, Jesus, Jesus
+\[X2V7]Ga...li\[X4V11]leu, Je\[X1]sus, Je\[X5V4]sus
+\[X2V7]Ga...li\[X4V11]leu, Je\[X1]sus, Je\[X5V4]sus
+\[X2V7]Ga...li\[X4V11]leu, Je\[X1]sus, Je\[X5V4]sus
+\[X2V7]Ga...li\[X4V11]leu, Je\[X1]sus, Je\[X5V4]sus
 \endchorus
-
+\seq{Riff Intro}{X6 X4V11 X6 X4V11}{}
+\act{Retomar}{Verso 3}{1x}
+\beginverse
+\[X4V11] Oh, oh, oh, oh
+\[X5V4] Oh, oh, oh, oh
+\[X6] Oh, oh, oh, oh \[X1]
+\endverse
+\seq{Riff 2}{X4V11 X5V4 X6 X1}{}
+\act{Repetir}{Refrão}{1x}
+\vspace{4em} % Regulador de Espaçamento
 %-----------------------------------------------------------------
 \begin{comment}
 \lstset{basicstyle=\scriptsize\bf} % Parâmetros da TAB
@@ -69,10 +78,11 @@ E|-----------------------------------------------------|
 %=================================================================
  
 %-----------------------------------------------------------------
-\color{drawChord}\gtab{\color{nameChord} X}{}% 
-\color{drawChord}\gtab{\color{nameChord} X}{}% 
-\color{drawChord}\gtab{\color{nameChord} X}{}% 
-\color{drawChord}\gtab{\color{nameChord} X}{}% 
+\color{drawChord}\gtab{\color{nameChord} X1}{}% 
+\color{drawChord}\gtab{\color{nameChord} X2V7}{}% 
+\color{drawChord}\gtab{\color{nameChord} X4V11}{}% 
+\color{drawChord}\gtab{\color{nameChord} X5V4}{}% 
+\color{drawChord}\gtab{\color{nameChord} X6}{}%
 %-----------------------------------------------------------------
 % PADRÃO: [TonalidadeMaior+NOTAX+Variações] .Ex:[X50] [X57V1V7]
 % OBS: Variações são alterações do acorde em relação ao campo harmônico.
