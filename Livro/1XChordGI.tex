@@ -1,0 +1,8 @@
+%----------------------------------------------
+% XCHORD GI: GOLPEL INTERNACIONAL
+%----------------------------------------------
+\bash[stdoutFile=inputAuto.tex]
+{ shopt -s nullglob; for file in Musica/XChordGI/*.tex; do echo "\\input{$file}"; done; } 
+\END
+\input{inputAuto.tex}
+%----------------------------------------------
