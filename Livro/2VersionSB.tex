@@ -1,0 +1,8 @@
+%----------------------------------------------
+% VERSION : SERTANEJO BRASIL
+%----------------------------------------------
+\bash[stdoutFile=inputAuto.tex]
+{ shopt -s nullglob; for file in Musica/VersionSB/*.tex; do echo "\\input{$file}"; done; } 
+\END
+\input{inputAuto.tex}
+%----------------------------------------------
