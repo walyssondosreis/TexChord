@@ -23,6 +23,7 @@ a4paper % Formato de papel.
 \RequirePackage[LGR,T1]{fontenc} % Base para as fontes
 \RequirePackage{cyklop} % Fonte Cyklop | \scshape \itshape
 \RequirePackage[sfdefault]{roboto}  % Fonte Roboto | \roboto
+\usepackage{hyperref} % Permite hyperlink nas paginas
 %================================================================
 \pagestyle{empty}
 %================================================================
