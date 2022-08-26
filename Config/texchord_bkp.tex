@@ -17,8 +17,7 @@ a4paper % Formato de papel.
 ,hmarginratio={2:1} % Aspecto entre texto e a margem horizontal.
 ,vmarginratio={1:1} % Aspecto entre texto e a margem vertical.
 ,outer={1.2cm} % Tamanho de margem esquerda e direita.
-,tmargin={0.0cm} % Tamanho de margem superior
-,bmargin={1.2cm} % Tamanho de margem inferior.
+,bmargin={0.0cm} % Tamanho de margem superior e inferior.
 ]{geometry}% Formatação do documento.
 %---------------------------------------------------------------
 \RequirePackage[LGR,T1]{fontenc} % Base para as fontes
@@ -26,7 +25,7 @@ a4paper % Formato de papel.
 \RequirePackage[sfdefault]{roboto}  % Fonte Roboto | \roboto
 \usepackage{hyperref} % Permite hyperlink nas paginas
 %================================================================
-\pagestyle{plain}
+\pagestyle{empty}
 %================================================================
 % Entradas Do Cabeçalho
 \newsongkey{album}{\let\songalbum\@empty}{\def\songalbum{#1}}
